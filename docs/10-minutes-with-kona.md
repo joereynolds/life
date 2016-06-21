@@ -28,14 +28,13 @@ Or
 `|!10`
   `9 8 7 6 5 4 3 2 1 0`
 
-
 Most functions change their meaning depending on the amount of arguments given.
 For instance, that enumerate function above is a modulus operator when given two arguments.
 
 `5 ! 2`
   `1`
 
-(Most functions are monadic and dyadic, i.e. they can take 1 or 2 arguments, but some can take up to 4 different arguments.)
+(Most functions are monadic and dyadic, i.e. they can take 1 or 2 arguments, but some can take up to 4 different arguments. It can actually get even more complex, some functions operate differently depending on if they're arguments are atoms or lists.)
 
 Let's take our first steps to programmerhood
 
@@ -50,7 +49,6 @@ What's the first letter?
   `"H"`
 
 Or the more idiomatic 'K' way, using the 'first' monadic function
-
 `*greeting`
   `"H"`
 
@@ -60,8 +58,11 @@ What's the last letter?
 
 Read that as, take the first(*) letter from the reversed(|) string.
 
-More index trickery
+Hide dupes
+`? greeting`
+  `"Helo, wrd!"`
 
+More index trickery
 `greeting[7 8 7]`
   `"wow"`
 
@@ -79,7 +80,6 @@ Which ones are greater than 50?
 
 Hmm, that's not very helpful...
 I need the indices of those.
-
 `& random > 50`
   `3 4 5 7 8 11 12 13 15 16 18 19`
 
@@ -122,6 +122,13 @@ dict[`` `a `` `b `` `c]
   "your"
   "booty")
 `
+
+Functions:
+
+`addOne: {x + 1}`
+`addOne 6`
+  7
+
                 
 Does your brain hurt? Good.
 
