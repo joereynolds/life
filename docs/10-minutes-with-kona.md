@@ -21,19 +21,19 @@ There is a quicker way with the monadic(takes one argument) enumerate(!) functio
 Let's reverse that list
 
 `|numbers`
-`9 8 7 6 5 4 3 2 1 0`
+  `9 8 7 6 5 4 3 2 1 0`
 
 Or
 
 `|!10`
-`9 8 7 6 5 4 3 2 1 0`
+  `9 8 7 6 5 4 3 2 1 0`
 
 
 Most functions change their meaning depending on the amount of arguments given.
 For instance, that enumerate function above is a modulus operator when given two arguments.
 
 `5 ! 2`
-`1`
+  `1`
 
 (Most functions are monadic and dyadic, i.e. they can take 1 or 2 arguments, but some can take up to 4 different arguments.)
 
@@ -43,27 +43,27 @@ Let's take our first steps to programmerhood
 
 How long is this string?
 `#greeting`
-`13`
+  `13`
 
 What's the first letter?
 `greeting[0]`
-`"H"`
+  `"H"`
 
 Or the more idiomatic 'K' way, using the 'first' monadic function
 
 `*greeting`
-`"H"`
+  `"H"`
 
 What's the last letter?
 `*|greeting`
-`"!"`
+  `"!"`
 
 Read that as, take the first(*) letter from the reversed(|) string.
 
 More index trickery
 
 `greeting[7 8 7]`
-`"wow"`
+  `"wow"`
 
 That gets the 7th index of the string, then the 8th, and then the 7th again.
 I can't really stress how flexible and expressive it is.
@@ -71,31 +71,58 @@ I can't really stress how flexible and expressive it is.
 Let's generate some random numbers. How about 20 numbers in the range 0-99?
 `random: 20 ? 100`
 `random`
-`30 25 69 86 66 79 47 96 52 21 31 54 96 89 22 76 91 36 78 70`
+  `30 25 69 86 66 79 47 96 52 21 31 54 96 89 22 76 91 36 78 70`
 
 Which ones are greater than 50?
 `random > 50`
-`0 0 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1`
+  `0 0 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1`
 
 Hmm, that's not very helpful...
 I need the indices of those.
 
 `& random > 50`
-`3 4 5 7 8 11 12 13 15 16 18 19`
+  `3 4 5 7 8 11 12 13 15 16 18 19`
 
 Nice, now I can finally get them!
 `random[& random > 50]`
-`69 86 66 79 96 52 54 96 89 76 91 78 70`
+  `69 86 66 79 96 52 54 96 89 76 91 78 70`
 
 Hmm, too many, I only need 5 
 `5 # random[& random > 50]`
-`69 86 66 79 96`
+  `69 86 66 79 96`
 
 Much better.
 
 Let's take a step back and breathe...
 Done? Okay
 
+Dictionaries:
+
+`
+dict[`a]: "shake"
+dict[`b]: "your"
+dict[`c]: "booty"
+`
+
+`
+dict[`` `a `` `a `` `a]
+  ("shake"
+  "shake"
+  "shake")
+dict[`` `a `` `a `` `a]
+  ("shake"
+  "shake"
+  "shake")
+dict[`` `a `` `b `` `c]
+  ("shake"
+  "your"
+  "booty")
+dict[`` `a `` `b `` `c]
+  ("shake"
+  "your"
+  "booty")
+`
+                
 Does your brain hurt? Good.
 
 # Conclusion
