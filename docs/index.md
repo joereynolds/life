@@ -17,7 +17,8 @@ A list of various programming ideas that I may or may not pursue at some point.
 
 Various rants that I might expand and publish on my site
 
-- Writing with Vim - A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
+- [[writing-with-vim]] - A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
+-  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
 
 --Brainstorms below...beware--
 
@@ -28,7 +29,7 @@ A complete dump of random stuff
 - [[building-a-pc]] - A complete newbs guide to what you'll need to build a pc
 - [[so-build-site]] - What it actually takes to make a simple site well
 
-###Things I like
+### Things I like
 
 1. Animals
 2. Programming
