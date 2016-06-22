@@ -127,9 +127,14 @@ Functions:
 
 `addOne: {x + 1}`
 `addOne 6`
-  7
+  `7`
+  
+With multiple arguments:
 
-                
+`addBoth: {[x;y] x + y}`
+`addBoth[5;6]`
+  `11`
+
 Does your brain hurt? Good.
 
 # Conclusion
