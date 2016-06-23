@@ -98,42 +98,49 @@ Done? Okay
 
 Dictionaries:
 
-`
-dict[`a]: "shake"
-dict[`b]: "your"
-dict[`c]: "booty"
-`
+    
+    dict[`a]: "shake"
+    dict[`b]: "your"
+    dict[`c]: "booty"
+    
 
-`
-dict[`` `a `` `a `` `a]
-  ("shake"
-  "shake"
-  "shake")
-dict[`` `a `` `a `` `a]
-  ("shake"
-  "shake"
-  "shake")
-dict[`` `a `` `b `` `c]
-  ("shake"
-  "your"
-  "booty")
-dict[`` `a `` `b `` `c]
-  ("shake"
-  "your"
-  "booty")
-`
+    dict[`` `a `` `a `` `a]
+      ("shake"
+      "shake"
+      "shake")
+    dict[`` `a `` `a `` `a]
+      ("shake"
+      "shake"
+      "shake")
+    dict[`` `a `` `b `` `c]
+      ("shake"
+      "your"
+      "booty")
+    dict[`` `a `` `b `` `c]
+      ("shake"
+      "your"
+      "booty")
+
 
 Functions:
-
 `addOne: {x + 1}`
 `addOne 6`
   `7`
   
 With multiple arguments:
-
 `addBoth: {[x;y] x + y}`
 `addBoth[5;6]`
   `11`
+  
+More addition:
+`5 + 5`
+  `10`
+
+`5 + 10 20 30`
+  `15 25 35`
+
+`5 6 7 + 10 20 30`
+  `15 26 37`
 
 Does your brain hurt? Good.
 
@@ -147,13 +154,13 @@ If you want to get started writing in Kona, then head over to the Github page an
 
 # Reference
 
-The best documentation I've found for K/Kona is the User and Reference Manual.
+The best documentation I've found for K/Kona is the K User and Reference Manual.
 They're very well written and thoroughly documented.
 
 http://web.archive.org/web/20041022042401/http://www.kx.com/technical/documents/kusrlite.pdf
 
 http://web.archive.org/web/20050504070651/http://www.kx.com/technical/documents/kreflite.pdf
 
-There's also Kona's wiki
+There's also Kona's wiki for a more casual read
 
 https://github.com/kevinlawler/kona/wiki
