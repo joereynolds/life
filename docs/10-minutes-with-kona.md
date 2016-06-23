@@ -104,19 +104,20 @@ Dictionaries:
     dict[`c]: "booty"
     
 
-    dict[`` `a `` `a `` `a]
+
+    dict[`a `a `a]
       ("shake"
       "shake"
       "shake")
-    dict[`` `a `` `a `` `a]
+    dict[`a `a `a]
       ("shake"
       "shake"
       "shake")
-    dict[`` `a `` `b `` `c]
+    dict[`a `b `c]
       ("shake"
       "your"
       "booty")
-    dict[`` `a `` `b `` `c]
+    dict[`a `b `c]
       ("shake"
       "your"
       "booty")
