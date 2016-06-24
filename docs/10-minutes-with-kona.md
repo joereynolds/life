@@ -8,7 +8,8 @@ From now on I'll be talking about Kona, but all the examples that work in Kona, 
 
 On to the code!
 
-# A whirlwind tour
+
+## A whirlwind tour
 
 Nearly everything in Kona is an array. Let's define a variable `numbers` that holds the numbers 0 through 9
 
@@ -42,19 +43,19 @@ Let's take our first steps to programmerhood
 
 How long is this string?
 `#greeting`
-  `13`
+`  13`
 
 What's the first letter?
 `greeting[0]`
-  `"H"`
+`  "H"`
 
 Or the more idiomatic 'K' way, using the 'first' monadic function
 `*greeting`
-  `"H"`
+`  "H"`
 
 What's the last letter?
 `*|greeting`
-  `"!"`
+`  "!"`
 
 Read that as, take the first(*) letter from the reversed(|) string.
 
@@ -72,11 +73,11 @@ I can't really stress how flexible and expressive it is.
 Let's generate some random numbers. How about 20 numbers in the range 0-99?
 `random: 20 ? 100`
 `random`
-  `30 25 69 86 66 79 47 96 52 21 31 54 96 89 22 76 91 36 78 70`
+`  30 25 69 86 66 79 47 96 52 21 31 54 96 89 22 76 91 36 78 70`
 
 Which ones are greater than 50?
 `random > 50`
-  `0 0 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1`
+`  0 0 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1`
 
 Hmm, that's not very helpful...
 I need the indices of those.
@@ -133,6 +134,10 @@ With multiple arguments:
 `addBoth[5;6]`
   `11`
   
+Works on lists too
+`addBoth[5 12; 2 2]`
+  `7 14`
+  
 More addition:
 `5 + 5`
   `10`
@@ -143,7 +148,33 @@ More addition:
 `5 6 7 + 10 20 30`
   `15 26 37`
 
-Does your brain hurt? Good.
+Let's do some Euler (spoilers ahead for problem 1)
+"If we list all the natural numbers below 10 that are multiples of 3 or 5,
+we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000."
+
+Gather the numbers
+`n: !1000`
+
+Which ones are multiples of 5?
+`n[& (n!5) = 0]`
+
+How about 3?
+`n[& (n!3) = 0]`
+
+Both?
+`n[& ((n!3) = 0) | ((n!5) = 0)]`
+
+Store it
+`multiples: n[& ((n!3) = 0) | ((n!5) = 0)]`
+
+Sum it
+`+/ multiples`
+
+Voila
+`multiples`
+`  233168`
+
 
 # Conclusion
 
