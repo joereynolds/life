@@ -12,6 +12,7 @@ A list of various programming ideas that I may or may not pursue at some point.
 - [[Interactive Apache]] - Learn How to configure and use Apache through the command line.  Pretty much like githug but for Apache.
 - [[Component Library Script]] - An MVC application that makes searching through CSI's components slightly less painful
 - [[Reaper package manager]] - A package manager for vst plugins
+- [[task-manager]]
 
 # Articles
 
@@ -21,6 +22,12 @@ Various rants that I might expand and publish on my site
 -  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
 
 --Brainstorms below...beware--
+
+# Game ideas
+
+- logical steps
+- [[franklins-boot]]
+
 
 # Misc
 
