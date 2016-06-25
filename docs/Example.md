@@ -1,7 +1,7 @@
 Note that in the majority of cases,
 commands can be added to with a comma (,)
 
-=== Get the notes of a chord ===
+### Get the notes of a chord
 Input:
     cmajor --chord=C
 Output:
@@ -13,13 +13,13 @@ Output:
     C E G
     Eb Gb Bb
 
-=== Get the chord from notes ===
+### Get the chord from notes
 Input:
     cmajor --make-chord=C,E,G,B
 Output:
     C major 7
 
-=== Get the notes of a scale ===
+### Get the notes of a scale
 Input:
     cmajor --scale=Em
 Output:
@@ -38,13 +38,13 @@ Input:
 Output:
     C Db F G
 
-=== Get the scale from notes ===
+### Get the scale from notes
 Input:
     cmajor --make-scale=A,C,D,E,G
 Output:
     A pentatonic
 
-=== Get a note from a frequency ===
+### Get a note from a frequency
 Input:
     cmajor --hz=440
 Output:
@@ -56,7 +56,7 @@ Input:
 Output:
     A B(+7 cents, frequency=493.88) A#/Bb
 
-=== Get a frequency from a note ===
+### Get a frequency from a note
 Note that you must specify the octave.
 How else would it know what to do?
 Input:
@@ -64,33 +64,33 @@ Input:
 Output:
     440hz
 
-=== Get common tones between two things ===
+### Get common tones between two things
 
 Returns the common tones between N things.
 Things in this case can be, a chord, scale, or list of intervals.
 
 Note sure how to differentiate from scales and chords at the moment
 so here are some (bad) examples
-==== Scale example ====
+#### Scale example
 
 Input:
     cmajor --common=Em,Cm
 Output:
     C D G
 
-==== Chord example ====
+#### Chord example
 Input:
     cmajor --common=G,Em
 Output:
     G B
 
-==== Interval example ====
+#### Interval example
 Input:
     cmajor --common=[A,B,C],[C,D,E]
 Output:
     C
 
-=== Get the modes of a scale ===
+### Get the modes of a scale
 
 Input:
     cmajor --scale-mode=Em
@@ -103,13 +103,13 @@ Output:
     Aeolian     E
     Locrian     F#
 
-=== Get the mode of a scale ===
+### Get the mode of a scale
 Input:
     cmajor --scale-mode=Em:locrian
 Output:
     F# Locrian
 
-=== Get the scale of a mode ===
+### Get the scale of a mode
 Input:
     cmajor --mode-scales=E-locrian
 Output:
@@ -121,7 +121,7 @@ Output:
     Aeolian     D
     Locrian     E
 
-=== Get the interval between N notes ===
+### Get the interval between N notes
 
 Input:
     cmajor --interval=C,A,G
