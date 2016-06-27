@@ -13,6 +13,7 @@ A list of various programming ideas that I may or may not pursue at some point.
 - [[Component Library Script]] - An MVC application that makes searching through CSI's components slightly less painful
 - [[Reaper package manager]] - A package manager for vst plugins
 - [[task-manager]]
+- [[weight-value-object]] - A weight value object for Python
 
 # Articles
 
