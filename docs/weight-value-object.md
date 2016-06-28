@@ -76,6 +76,33 @@ It should support these at a minimum:
 - stone (st)
 - ton (t)
 
+# Conversions
+
+## lb -> g
+
+lb / 0.0022046
+
+## g -> lb
+
+g * 0.0022046
+
+## lb -> kg
+
+lb / 2.2046
+
+## kg -> lb
+
+kg * 2.2046
+
+## lb -> oz
+
+lb / 16.000
+
+## oz -> lb
+
+oz * 0.062500
+
+
 # Reference
 
 - http://gwydir.demon.co.uk/jo/units/weight.htm
@@ -83,3 +110,6 @@ It should support these at a minimum:
 
 - http://www.weightconversions.org/abbreviations-tsta.htm?utm_expid=90519153-1130.KutZ87WMTSWfMRrduEEYFw.1&utm_referrer=https%3A%2F%2Fwww.google.co.uk%2F
     - Listing of weight abbreviations
+
+- http://www.metric-conversions.org/weight/pounds-to-kilograms.htm
+    - Weight conversion formulae
