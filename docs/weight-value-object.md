@@ -5,7 +5,7 @@ It should be immutable, and return a new weight object for each operation
 
 - Do it in Python
 - TDD it
-- Functional style (maybe)
+- Functional style
 
 # Examples of Syntax
 
@@ -28,7 +28,7 @@ Or
 ## Subtraction
 
 The same as addition
-`Weight(5, 'lb') + Weight(10, 'kg')`
+`Weight(5, 'lb') - Weight(10, 'kg')`
 
 ## Rambles
 
@@ -38,6 +38,8 @@ Or
 `Weight(5, 'lb')`
 
 It should definitely be the latter, so we can sanely add to it.
+We don't want to be parsing out the unit of measurement all the time,
+that's awful.
 
 ## Conversion
 `Weight(5, 'lb').convert('kg')`
