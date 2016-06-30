@@ -14,7 +14,9 @@ A list of various programming ideas that I may or may not pursue at some point.
 - [[Reaper package manager]] - A package manager for vst plugins
 - [[task-manager]]
 - [[weight-value-object]] - A weight value object for Python
+- [[markdown-site-generator]] - A basic and lightweight site generator.
 - [[MKLang]] - A programming language based around Mortal Kombat
+
 
 # Articles
 
