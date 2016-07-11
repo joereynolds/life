@@ -26,6 +26,7 @@ Various rants that I might expand and publish on my site
 
 - [[writing-with-vim]] - A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
 -  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
+- [[intro-to-lambda-calculus]] - A Gentle introduction to Lambda Calculus
 
 --Brainstorms below...beware--
 
