@@ -10,12 +10,14 @@ A list of various programming ideas that I may or may not pursue at some point.
       which would help the world...basically. It's like RHOK before RHOK for some reason turned into a weekly hackathon
 - Open Game Music V2 - Similar to my previous attempt. except built ontop of Laravel.
 - [[Interactive Apache]] - Learn How to configure and use Apache through the command line.  Pretty much like githug but for Apache.
-- [[Component Library Script]] - An MVC application that makes searching through CSI's components slightly less painful
-- [[Reaper package manager]] - A package manager for vst plugins
+- [[Component Library Script]] - An MVC application that makes searching through CSI's components slightly less painful.
+- [[Reaper package manager]] - A package manager for vst plugins.
 - [[task-manager]]
 - [[weight-value-object]] - A weight value object for Python
 - [[markdown-site-generator]] - A basic and lightweight site generator.
-- [[MKLang]] - A programming language based around Mortal Kombat
+- [[MKLang]] - A programming language based around Mortal Kombat.
+- [[Scheme-linter]] - A linter for the Lisp dialect Scheme
+- [[Scheme-testing-library]] - A library for testing Scheme code.
 
 
 # Articles
