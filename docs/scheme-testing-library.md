@@ -1,3 +1,7 @@
+# IGNORE
+
+the test egg is exactly what was needed.
+
 ### Worth doing?
 
 There are several testing libraries for scheme already, is this worth doing?

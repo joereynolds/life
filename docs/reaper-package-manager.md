@@ -1,7 +1,7 @@
 
-=Reaper Package manager=
+#Reaper Package manager
 
-== Intro ==
+## Intro
 
 Reaper package manager is a command line interface to manage the downloading/installing, updating, and deletion of plugins.
 The packages are kept up to date by the community via a user repository (similar in through to the AUR).

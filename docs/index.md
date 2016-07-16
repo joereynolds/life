@@ -6,18 +6,19 @@ A list of various programming ideas that I may or may not pursue at some point.
 
 - [[Music command line tool]] - A command line interface for viewing various music theory things
 - [[musicss]] - A CSS framework for music notation
-- [[Social Hacks ]] - A website aimed at being a central pool where people can submit things that *need* to be programmed
+- [[social-hacks ]] - A website aimed at being a central pool where people can submit things that *need* to be programmed
       which would help the world...basically. It's like RHOK before RHOK for some reason turned into a weekly hackathon
 - Open Game Music V2 - Similar to my previous attempt. except built ontop of Laravel.
 - [[Interactive Apache]] - Learn How to configure and use Apache through the command line.  Pretty much like githug but for Apache.
-- [[Component Library Script]] - An MVC application that makes searching through CSI's components slightly less painful.
-- [[Reaper package manager]] - A package manager for vst plugins.
+- [[component-library-script]] - An MVC application that makes searching through CSI's components slightly less painful.
+- [[reaper-package-manager]] - A package manager for vst plugins.
 - [[task-manager]]
 - [[weight-value-object]] - A weight value object for Python
 - [[markdown-site-generator]] - A basic and lightweight site generator.
 - [[MKLang]] - A programming language based around Mortal Kombat.
-- [[Scheme-linter]] - A linter for the Lisp dialect Scheme
-- [[Scheme-testing-library]] - A library for testing Scheme code.
+- [[scheme-linter]] - A linter for the Lisp dialect Scheme
+- [[scheme-testing-library]] - A library for testing Scheme code.
+- [[shell-test]] - A testing library to assert shell output. Functional tests.
 
 
 # Articles
