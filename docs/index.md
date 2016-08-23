@@ -4,6 +4,7 @@
 
 A list of various programming ideas that I may or may not pursue at some point.
 
+- [[changes]] - Shows changes to all files within a timeframe
 - [[Music command line tool]] - A command line interface for viewing various music theory things
 - [[musicss]] - A CSS framework for music notation
 - [[social-hacks ]] - A website aimed at being a central pool where people can submit things that *need* to be programmed
@@ -28,6 +29,7 @@ Various rants that I might expand and publish on my site
 - [[writing-with-vim]] - A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
 -  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
 - [[intro-to-lambda-calculus]] - A Gentle introduction to Lambda Calculus
+- [[testing-cli-applications]] - A look at how to test cli stuff
 
 --Brainstorms below...beware--
 
