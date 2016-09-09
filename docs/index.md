@@ -30,6 +30,7 @@ Various rants that I might expand and publish on my site
 -  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
 - [[intro-to-lambda-calculus]] - A Gentle introduction to Lambda Calculus
 - [[testing-cli-applications]] - A look at how to test cli stuff
+- [[networking-tools]] - Some of my favourite tools for inspecting a network. Slightly hack oriented
 
 --Brainstorms below...beware--
 

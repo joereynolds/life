@@ -88,3 +88,6 @@
 
 - Use Ninite for bulk install of the basic stuff (Chrome, Dropbox etc...)
 
+:q
+:q
+:q
