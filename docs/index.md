@@ -1,5 +1,3 @@
-
-
 # Projects
 
 A list of various programming ideas that I may or may not pursue at some point.
@@ -28,6 +26,8 @@ Various rants that I might expand and publish on my site
 - [[writing-with-vim]] - A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
 -  [[10-minutes-with-kona]] - A lightning-tour through the K/Kona language.
 - [[intro-to-lambda-calculus]] - A Gentle introduction to Lambda Calculus
+- [[tdd-notes]] - Notes from a TDD training course
+- [[angular-notes]] - Notes from an AngularJS (v1) training course
 
 --Brainstorms below...beware--
 
@@ -43,6 +43,7 @@ A complete dump of random stuff
 
 - [[building-a-pc]] - A complete newbs guide to what you'll need to build a pc
 - [[so-build-site]] - What it actually takes to make a simple site well
+- [[hack-checklisst]] - Things to remember when you're being bad.
 
 ### Things I like
 
