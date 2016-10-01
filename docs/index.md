@@ -2,6 +2,7 @@
 
 A list of various programming ideas that I may or may not pursue at some point.
 
+- [[changes]] - Shows changes to all files within a timeframe
 - [[Music command line tool]] - A command line interface for viewing various music theory things
 - [[musicss]] - A CSS framework for music notation
 - [[social-hacks ]] - A website aimed at being a central pool where people can submit things that *need* to be programmed
@@ -28,6 +29,8 @@ Various rants that I might expand and publish on my site
 - [[intro-to-lambda-calculus]] - A Gentle introduction to Lambda Calculus
 - [[tdd-notes]] - Notes from a TDD training course
 - [[angular-notes]] - Notes from an AngularJS (v1) training course
+- [[testing-cli-applications]] - A look at how to test cli stuff
+- [[networking-tools]] - Some of my favourite tools for inspecting a network. Slightly hack oriented
 
 --Brainstorms below...beware--
 
