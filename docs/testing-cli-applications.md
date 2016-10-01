@@ -13,7 +13,7 @@ Some people prefer `nose` or other similar tools but any unit testing is better 
 
 ## Shelltest
 
-[Shelltest]() is an acceptance testing library for the CLI.
+[Shelltest](https://github.com/liquidz/shelltest) is an acceptance testing library for the CLI.
 It's extremely simple to set up and is pretty much like testing the application yourself.
 
 It helps find bugs/regressions that you wouldn't normally pickup through unit tets alone.
@@ -31,5 +31,3 @@ Making it executable
 
 And moving it somewhere globally accessible
 `mv shelltest /usr/local/bin/`
-
-
