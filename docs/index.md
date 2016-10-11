@@ -18,6 +18,7 @@ A list of various programming ideas that I may or may not pursue at some point.
 - [[scheme-linter]] - A linter for the Lisp dialect Scheme
 - [[scheme-testing-library]] - A library for testing Scheme code.
 - [[shell-test]] - A testing library to assert shell output. Functional tests.
+- [[inspectee]] - A ViM plugin to show the value of variables when your cursor is on them.
 
 
 # Articles
