@@ -13,3 +13,10 @@ Two good possible options for a rack/case are
 
 They both have the same capabilities (powered and 84hp)
 
+## Modules
+
+### Essentials
+- Oscillator
+- Envelope generator
+- Filter
+
