@@ -3,6 +3,12 @@
 - Check the robots.txt file
     - There could be sensitive urls in there
 
+- Check the `server-status` url for apache (what's the nginx equivalent?)
+    - i.e. visit yoururl.com/server-status
+
+- Is there a phpinfo.php file open to anyone? (what other language equivalents are there?)
+    - i.e. visit yoururl.com/phpinfo.php
+
 - Check the page source, people are dumb and leave commented out api keys everywhere.
 
 - use `nmap` to find potential ports/subdomains/git repos
