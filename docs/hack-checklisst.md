@@ -9,9 +9,14 @@
 - Is there a phpinfo.php file open to anyone? (what other language equivalents are there?)
     - i.e. visit yoururl.com/phpinfo.php
 
+
 - Check the page source, people are dumb and leave commented out api keys everywhere.
 
+- Run [nikto](https://github.com/sullo/nikto) against the site to find directories
+    - ./nikto.pl yourdomain.com
+
 - use `nmap` to find potential ports/subdomains/git repos
+    - nmap -v -A yourdomain.com
  
 - use `curl` for bruteforcing against 1000's of urls
     - i.e. {util,www}.joereynoldsaudio.com/{admin,wp} will attempt requests on
