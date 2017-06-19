@@ -1,9 +1,10 @@
 # Navigating files with (Neo)Vim
 
-Here be gifs of well-known and lesser known tools.
 I use these to navigate huge codebases (1m+ lines)
 
-Examples are using The Neovim source code
+Examples are using The Neovim source code.
+This is a whirlwind tour intended to whet your whistle, not teach you.
+Any questions, just ask!
 
 ## Tools
 
@@ -32,13 +33,9 @@ You can find where a constant is defined
 
 <script type="text/javascript" src="https://asciinema.org/a/311ip7hykg29efia8ynoe36bm.js" id="asciicast-311ip7hykg29efia8ynoe36bm" async></script>
 
-You can find where a class is instantiated
-
-GIF
-
 You can probably do other stuff that I don't know about.
 
-Download [gnu-global](linkhere).
+Download [gnu-global](https://www.gnu.org/software/global/).
 
 I've mirrored their vim plugins onto github and put them
 in a format that plugin managers will understand.
@@ -66,8 +63,7 @@ You can navigate symbols
 
 <script type="text/javascript" src="https://asciinema.org/a/7jo6w7nx8u51uvng66api16aw.js" id="asciicast-7jo6w7nx8u51uvng66api16aw" async></script>
 
-You can make your own **custom** searches, fuzzy makefile completion anyone?
-(Yes it sucks, but that's because **I** suck)
+You can make your own **custom** searches, fuzzy [makefile completion](https://github.com/joereynolds/fzf-makefile) anyone?
 
 <script type="text/javascript" src="https://asciinema.org/a/cchzypsfktikz91ikyjzjcnzf.js" id="asciicast-cchzypsfktikz91ikyjzjcnzf" async></script>
 
