@@ -1,7 +1,5 @@
 #Testing a CLI Application
 
-
-
 # Tools
 
 I do all of my CLI stuff usually in Python

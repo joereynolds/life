@@ -1,7 +1,6 @@
 # life
 
-A dump of my docs
+A dump of my docs.
+Open up the root and use Vim's `gf` command to browse to your leisure
 
-Note:
-Most of my stuff is written with VimWiki, if you want to sanely navigate these files for whatever reason,
-I recommend installing Vim and Vimwiki. Then navigate to ```docs/index.md``` and have a wander around.
+docs/index.md - Start browsing now
