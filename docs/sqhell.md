@@ -9,6 +9,7 @@ A lightweight alternative to the dbext plugin. It would be able to use mysql, po
 - Should be able to do `docker exec blabla...` if we're not running locally
 - You'll probably need a command such as MarkAsPk that will do the <cword> or a given word and mark that column as the pk.
   I'm not sure how you would do buffer deletions otherwise.
+- SQL results should re-use the same buffer
 
 ## Commands
 
@@ -29,6 +30,7 @@ Autocompletion should NOT be baked in. It should be a separate source for the co
 
 Mapping Generality
 e - This should function like edit does. So it will open/view things
+dd - This will delete the thing
 
 #### Select Buffer
 SELECTing should bring back the results in a buffer which can then have buffer local remappings such as
