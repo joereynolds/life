@@ -13,7 +13,8 @@ A list of various programming ideas that I may or may not pursue at some point.
 - reaper-package-manager.md - A package manager for vst plugins.
 - social-hacks.md - A website aimed at being a central pool where people can submit things that *need* to be programmed which would help the world...basically. It's like RHOK before RHOK for some reason turned into a weekly hackathon
 - task-manager.md
-- biscuits.md - A php feature library
+- biscuits.md - A php feature library   
+- reponere.md - A racket snippet program. Allows you to type a snippet and have it replaced.
 
 # Articles
 
