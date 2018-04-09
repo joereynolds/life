@@ -6,12 +6,12 @@ Each health check has a separate script and they are all bundled together in the
 Layout looks like this
 
 healthcheck.sh
-    - check-php.sh
-    - check-apache2.sh
-    - check-postfix.sh
-    - check-bogans.sh
-    - check-jra.sh
-    - check-mysql.sh
+    - check/php.sh
+    - check/apache2.sh
+    - check/postfix.sh
+    - check/bogans.sh
+    - check/jra.sh
+    - check/mysql.sh
 
 This will then all be available at 46.101.63.91/health.php (or something like that)
 This will display a box for each service, colored green if all is good, otherwise, red.

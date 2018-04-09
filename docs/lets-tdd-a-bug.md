@@ -2,7 +2,7 @@ I've recently started writing a CLI in Typescript to detect dead css,
 it's called [Mort](https://github.com/joereynolds/mort).
 There was a bug that has existed since it's early days as a [shell script](https://github.com/joereynolds/configs/blob/master/dotfiles/bash/.bashrc#L30).
 
-I found out the cause of the bug by chance, thanks to vim echoing a helpful `[dos]` when I saved the troublesome file.
+I found out the cause of the bug by chance, thanks to Vim echoing a helpful `[dos]` when I saved the troublesome file.
 The bug was that on css files with Windows-style line-endings, the output would be garbled and malformed.
 
 On Unix systems it looks like this:
@@ -53,12 +53,14 @@ test("It can handle unix and windows line endings", () => {
 ```
 
 Once we have the test case set up, we can then go about starting to write the code to fix the bug.
-In my case, it was fairly simple, split on `\n` for unix, and `\r\n` for windows.
+In my case, it was fairly simple, split on `\n` for Unix, and `\r\n` for Windows.
 
 **Before**
+
 const selectors = fileContents.split("\n").filter(selector => {
 
 **After**
+
 const selectors = fileContents.split(/(\r\n|\n)/g).filter(selector => {
 
 Once you've written the code to fix the bug, run the tests (`npm test`)and they should pass.
@@ -73,3 +75,8 @@ Snapshots:   0 total
 Time:        1.769s, estimated 2s
 Ran all test suites matching /test/i.
 ```
+
+And that's it!
+
+We've fixed the bug and we have a method of proving it whenever we want. This will help 
+reduce regressions with any future releases :)
