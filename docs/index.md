@@ -15,6 +15,7 @@ A list of various programming ideas that I may or may not pursue at some point.
 - task-manager.md
 - biscuits.md - A php feature library   
 - reponere.md - A racket snippet program. Allows you to type a snippet and have it replaced.
+- vim-view-plugin.md - A view file for vim...
 
 # Articles
 
