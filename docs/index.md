@@ -2,6 +2,7 @@
 
 A list of various programming ideas that I may or may not pursue at some point.
 
+- css-refactoring.md - A bunch of css refactoring patterns in the style of Martin Fowler's refactoring book.
 - franklins-boot.md
 - inspectee.md - A ViM plugin to show the value of variables when your cursor is on them.
 - Interactive-apache.md - Learn How to configure and use Apache through the command line.  Pretty much like githug but for Apache.
