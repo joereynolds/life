@@ -1,8 +1,18 @@
+# TOC
+
+1. Move up hierarchy
+2. Extract to class
+3. Reduce specificity
+4. Extract inline style
+5. Remove element from selector
+6. Convert inline-block to flex
+
+
 ## Some best practices
 
 ## Tools
 
-mort
+mort - helps find dead css, written by yours truly
 
 ## Patterns
 
@@ -11,34 +21,269 @@ mort
 Quite a few (link to properties) CSS properties cascade down.
 You should place these as high up the tree as you can.
 
+From this:
+```
+.content p {
+  color: #000;
+}
+
+.content div {
+  color: #000;
+}
+
+```
+
+To this
+```
+.content {
+  color: #000
+}
+```
+
+Why?
+- If you utilise the cascade you will find yourself having to override styles less.
+- Reduces the amount of code duplication
+- Encourages modularity and portability
+
 ### Extract to class
 
-If a rule is repeated all over the place, extract it to a class and use that instead
+If a rule is repeated, extract it to a class and use that instead
+
+From
+```
+#system-admin-icon
+{
+	display:block;
+	width:160px;
+	height:160px;
+	background-image:url( '/static/images/admin_export.png' );
+}
+
+#system-thor-icon
+{
+	display:block;
+	width:160px;
+	height:160px;
+	background-image:url( '/static/images/thor_export.png' );
+}
+
+#system-toms-icon
+{
+	display:block;
+	width:160px;
+	height:160px;
+	background-image:url( '/static/images/toms_export.png' );
+}
+```
+
+To
+```
+.system-icon {
+	display:block;
+	width:160px;
+	height:160px;
+}
+
+#system-admin-icon {
+	background-image:url( '/static/images/admin_export.png' );
+}
+
+#system-thor-icon {
+	background-image:url( '/static/images/thor_export.png' );
+}
+
+#system-toms-icon {
+	background-image:url( '/static/images/toms_export.png' );
+}
+```
+
+Why?
+
+Classes encourage reusability and modularity.
 
 ### Reduce specificity
+
+If you are targeting an element, try and do it in as few selectors as possible.
+
+From
+```
+.content ul li a {
+  padding: 5px;
+  color: #eee
+}
+```
+
+To
+```
+.content a {
+  padding: 5px;
+  color: #eee;
+}
+```
+
+Why?
+
+- Very specific selectors are slow as they have to parse the DOM more granularly.
+- specific selectors are harder to override and decrease modularity.
 
 ### Extract inline style
 
 Inline styles are generally discouraged. Put these in a stylesheet.
 
-### Remove element from selector
+From
 
-A selector like a.nav-link is almost always useless. Just do `.nav-link`. I have never once seen this benefit anything.
+```
+<table class="content" style="padding: 10px; background-color: #ccc">
+...
+</table>
 
-### Generalise the id selector
+```
 
-A selector like `.my-column div #item` is probably okay to
-refactor down to `#item`. The reason being an id should only be
-used once...
+To
 
-### Inline-block to Flex
-If you're using inline-block to display a bunch of things in a row,
-use flex, it's much more suited to the task.
+```
+.content {
+  padding: 10px;
+  background-color: #ccc;
+}
+```
 
-### Dead code
+Why?
 
-#### Duplicate declarations
+- Inline styling removes any reusability and also tricks devs. Most people assume styles are in stylesheets.
 
-#### Overwritten styles
+### Remove qualified selector
 
+A selector like a.nav-link is useless (unless intentional).
 
+From
+```
+a.nav-link {
+  color: red;
+}
+```
+
+To
+```
+.nav-link {
+  color: red
+}
+```
+
+Why?
+
+You are doing two things here.
+  - Increasing specificity therefore making it harder to override
+  - Restricting your style only to `<a>` tags. If that is intentional, I would create a separate class instead.
+
+### Convert inline-block to flex
+
+If you're using inline-block to layout some columns, use something better suited, like flex!
+
+From
+```
+
+```
+
+To
+```
+
+```
+
+Why?
+
+Flex auto adjusts to the correct width, this is really great for column layouts.
+
+### Reuse color 
+
+The `currentColor` properties refers to the specified `color` in that style.
+
+From:
+```
+p {
+  color: green;
+  border: 1px solid green;
+  padding: 5px;
+}
+```
+To  
+```
+p {
+  color: green;
+  border: 1px solid currentColor;
+  padding: 5px;
+}
+```
+
+Why?
+
+currentColor enables easier refactoring. 
+If borders/box shadows etc... are meant to be tied to the `color`, use `currentColor`.
+
+### Extract Key Selector    
+(NOTE: A key selector is the element being styled in the css, usually it is the last element in the chain of a selector)
+
+Extract each repeated use of a key selector into its own class.
+
+From:
+```
+
+.footer .btn,
+.header .btn {
+  padding: 5px;
+}
+
+.content .btn {
+  padding: 10px;
+}
+```
+
+To:
+```
+.btn {
+  padding: 5px;
+}
+
+.btn--large {
+  padding: 10px;
+}
+
+}
+```
+
+Why?
+
+Extracting a key selector's style to its own class encourages modularity.
+`.btn--large` can be used anywhere, whereas `.content .btn` had to be inside `.content`.
+
+### Reduce DOM dependency
+
+Remove descendant selectors where they are unneccesary.
+
+From:
+
+```
+ul > li > a {
+  color: blue;
+}
+
+```
+
+To:
+```
+ul a {
+  color: blue
+>>>>>>> f00824e2fab0c9850b3011d3c9065993fade2a1f
+
+}
+```
+
+Why?
+If the HTML changes, your CSS is now broken, you probably didn't want that to happen.
+
+### Generalise id selector
+
+A selector like `.my-column div #item` is usually okay to
+refactor down to `#item`.
+
+Why?
