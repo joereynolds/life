@@ -47,10 +47,7 @@ Why?
 
 ### Extract to class
 
-If a rule is repeated all over the place, extract it to a class and use that instead
-
-Refactor this to a class and use the class. The id can be kept (if we have to) and just specify
-a different background image.
+If a rule is repeated, extract it to a class and use that instead
 
 From
 ```
@@ -118,7 +115,7 @@ From
 
 To
 ```
-.content a{
+.content a {
   padding: 5px;
   color: #eee;
 }
@@ -153,12 +150,11 @@ To
 
 Why?
 
-Inline styling removes any reusability and also tricks devs. Most people
-assume styles are in stylesheets.
+- Inline styling removes any reusability and also tricks devs. Most people assume styles are in stylesheets.
 
 ### Remove element from selector
 
-A selector like a.nav-link is almost always useless. Just do `.nav-link`. I have never once seen this benefit anything.
+A selector like a.nav-link is useless (unless intentional).
 
 From
 ```
@@ -177,8 +173,8 @@ To
 Why?
 
 You are doing two things here.
-  1. increasing specificity therefore making it harder to override
-  2. restricting your style only to `<a>` tags. If that is intentional, I would create a separate class instead.
+  - Increasing specificity therefore making it harder to override
+  - Restricting your style only to `<a>` tags. If that is intentional, I would create a separate class instead.
 
 ### Convert inline-block to flex
 
@@ -198,3 +194,28 @@ Why?
 
 Flex auto adjusts to the correct width, this is really great for column layouts.
 
+### Reuse color 
+
+The `currentColor` properties refers to the specified `color` in that style.
+
+From:
+```
+p {
+  color: green;
+  border: 1px solid green;
+  padding: 5px;
+}
+```
+To  
+```
+p {
+  color: green;
+  border: 1px solid currentColor;
+  padding: 5px;
+}
+```
+
+Why?
+
+currentColor enables easier refactoring. 
+If borders/box shadows etc... are meant to be tied to the `color`, use `currentColor`.
