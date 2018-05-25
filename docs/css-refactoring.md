@@ -1,27 +1,23 @@
 # TOC
 
-1. Move up hierarchy
-2. Extract to class
-3. Reduce specificity
-4. Extract inline style
-5. Remove element from selector
-6. Convert inline-block to flex
-
-
-## Some best practices
-
-## Tools
-
-mort - helps find dead css, written by yours truly
+- Move up hierarchy
+- Extract to class
+- Reduce specificity
+- Extract inline style
+- Remove qualified selector
+- Convert inline-block to flex
+- Reuse color
+- Extract Key Selector
+- Reduce DOM dependency
+- Generalise id selector
 
 ## Patterns
 
 ### Move up hierarchy
 
-Quite a few (link to properties) CSS properties cascade down.
-You should place these as high up the tree as you can.
+Place cascading CSS properties further up the tree.
 
-From this:
+From:
 ```
 .content p {
   color: #000;
@@ -30,10 +26,9 @@ From this:
 .content div {
   color: #000;
 }
-
 ```
 
-To this
+To:
 ```
 .content {
   color: #000
@@ -41,15 +36,16 @@ To this
 ```
 
 Why?
-- If you utilise the cascade you will find yourself having to override styles less.
+
+- If you utilise the cascade you will find yourself having to override fewer styles.
 - Reduces the amount of code duplication
 - Encourages modularity and portability
 
 ### Extract to class
 
-If a rule is repeated, extract it to a class and use that instead
+If a rule is repeated, extract it to a class and use that instead.
 
-From
+From:
 ```
 #system-admin-icon
 {
@@ -103,9 +99,9 @@ Classes encourage reusability and modularity.
 
 ### Reduce specificity
 
-If you are targeting an element, try and do it in as few selectors as possible.
+If you are targeting an element, do it in as few selectors as possible.
 
-From
+From:
 ```
 .content ul li a {
   padding: 5px;
@@ -130,17 +126,14 @@ Why?
 
 Inline styles are generally discouraged. Put these in a stylesheet.
 
-From
-
+From:
 ```
 <table class="content" style="padding: 10px; background-color: #ccc">
 ...
 </table>
-
 ```
 
-To
-
+To:
 ```
 .content {
   padding: 10px;
@@ -150,13 +143,13 @@ To
 
 Why?
 
-- Inline styling removes any reusability and also tricks devs. Most people assume styles are in stylesheets.
+- Inline styling removes any reusability and also trick developers. Most people assume styles are in stylesheets.
 
 ### Remove qualified selector
 
 A selector like a.nav-link is useless (unless intentional).
 
-From
+From:
 ```
 a.nav-link {
   color: red;
@@ -172,29 +165,40 @@ To
 
 Why?
 
-You are doing two things here.
-  - Increasing specificity therefore making it harder to override
-  - Restricting your style only to `<a>` tags. If that is intentional, I would create a separate class instead.
+- Decreases specificity therefore making it easier to override.
+- The selector is now applicable to more than just `<a>` tags.
 
 ### Convert inline-block to flex
 
 If you're using inline-block to layout some columns, use something better suited, like flex!
 
-From
+From:
+```
+.columns {}
+
+.column {
+  width: 33.3%;
+  display: inline-block;
+}
 ```
 
+To:
 ```
+.columns {
+  display: flex;
+}
 
-To
-```
-
+.column {
+  flex: 1;
+}
 ```
 
 Why?
 
-Flex auto adjusts to the correct width, this is really great for column layouts.
+- Flex auto adjusts to any amount of columns.
+- Flex is more (flex)ible, verticle layouts, rows, columns etc...
 
-### Reuse color 
+### Reuse color
 
 The `currentColor` properties refers to the specified `color` in that style.
 
@@ -206,7 +210,8 @@ p {
   padding: 5px;
 }
 ```
-To  
+
+To:
 ```
 p {
   color: green;
@@ -217,17 +222,16 @@ p {
 
 Why?
 
-currentColor enables easier refactoring. 
+currentColor enables easier refactoring.
 If borders/box shadows etc... are meant to be tied to the `color`, use `currentColor`.
 
-### Extract Key Selector    
+### Extract Key Selector
 (NOTE: A key selector is the element being styled in the css, usually it is the last element in the chain of a selector)
 
 Extract each repeated use of a key selector into its own class.
 
 From:
 ```
-
 .footer .btn,
 .header .btn {
   padding: 5px;
@@ -247,8 +251,6 @@ To:
 .btn--large {
   padding: 10px;
 }
-
-}
 ```
 
 Why?
@@ -266,24 +268,37 @@ From:
 ul > li > a {
   color: blue;
 }
-
 ```
 
 To:
 ```
 ul a {
   color: blue
->>>>>>> f00824e2fab0c9850b3011d3c9065993fade2a1f
-
 }
 ```
 
 Why?
+
 If the HTML changes, your CSS is now broken, you probably didn't want that to happen.
 
 ### Generalise id selector
 
-A selector like `.my-column div #item` is usually okay to
-refactor down to `#item`.
+Remove any selectors before the id.
+
+From:
+```
+.my-column #my-item {
+  padding: 5px;
+}
+```
+
+To:
+```
+#my-item {
+  padding: 5px;
+}
+```
 
 Why?
+
+An id is unique and does not need extra specificity.
