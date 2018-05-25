@@ -25,7 +25,20 @@ Inline styles are generally discouraged. Put these in a stylesheet.
 
 A selector like a.nav-link is almost always useless. Just do `.nav-link`. I have never once seen this benefit anything.
 
-### Inline-block -> Flex
+### Generalise the id selector
 
+A selector like `.my-column div #item` is probably okay to
+refactor down to `#item`. The reason being an id should only be
+used once...
+
+### Inline-block to Flex
+If you're using inline-block to display a bunch of things in a row,
+use flex, it's much more suited to the task.
+
+### Dead code
+
+#### Duplicate declarations
+
+#### Overwritten styles
 
 
