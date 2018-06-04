@@ -16,7 +16,6 @@ A list of various programming ideas that I may or may not pursue at some point.
 - task-manager.md
 - biscuits.md - A php feature library   
 - reponere.md - A racket snippet program. Allows you to type a snippet and have it replaced.
-- vim-view-plugin.md - A view file for vim...
 
 # Articles
 
@@ -43,6 +42,10 @@ These projects have made it and gone live, woo!
 - weight-value-object.md - A weight value object for Python
 - scheme-linter.md - A linter for the Lisp dialect Scheme
 - sqhell.md - A lightweight/basic sql wrapper for vim
+- vim-view-plugin.md - A view file for vim...
+- entree.md - A wrapper around entr to version control watches
+
+
 
 # Abandoned projects
 
