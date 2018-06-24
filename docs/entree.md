@@ -10,6 +10,8 @@ This also makes it easy to version.
 entree watch
 ```
 
+We won't implement this, it's weird.
+
 **Start a specific watcher**
 ```
 entree watch watcher-name-here
