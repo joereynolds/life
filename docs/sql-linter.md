@@ -1,6 +1,3 @@
-
-
-
 ## Lexer
 
 ```
@@ -38,19 +35,32 @@ separator: [ ]
 
 **file**
 
+```
 mysql-go myfile.sql
+```
 
 **stdin**
 
+```
 echo "SELECT * FROM 5 WHERE l" | mysql-go
+```
 
 **string(?)**
 
+```
 mysql-go "SELECT * FROM 5 WHERE l"
+```
 
 ### Warnings & Messages
 
 - All of them should have line number and column number
+
+**Missing semicolon**
+
+```
+SELECT * FROM address WHERE
+6:14 Missing semicolon
+```
 
 **No condition in a where clause**
 
@@ -77,7 +87,7 @@ SELECT `address_line_1` FROM `some_database`.address
 
 **Table doesn't exist**
 
-Works on SELECT, INSERT, UPDATE etc...
+Works on SELECT, INSERT, UPDATE etc..
 
 ```
 SELECT `address_line_1` FROM some_table
@@ -111,5 +121,13 @@ Should accept, file, string or stdin.
 
 ### Structure
 
+main.go
 Lexer.go    
 Parser.go
+warnings/
+  interface.go
+  non-existent-table.go
+  non-existent-column.go 
+  etc...
+
+Parser should contain an array of checks to go through, all checks should follow an interface
