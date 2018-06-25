@@ -16,6 +16,7 @@ A list of various programming ideas that I may or may not pursue at some point.
 - task-manager.md
 - biscuits.md - A php feature library   
 - reponere.md - A racket snippet program. Allows you to type a snippet and have it replaced.
+- likelyhood.md - Finds the similarity between two pieces of text. This is useful because... We can then pump this into a CSS stylesheet and if they're above/below a certain threshold we can warn that they're probably similar rules.
 
 # Articles
 
