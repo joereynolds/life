@@ -110,6 +110,10 @@ INSERT INTO address (`non_existent_column`) VALUES (3)
 
 etc...
 
+**Bring back MySQL errors too**
+
+If MySQL brings back any errors, then we should too.
+
 ### Formatter?
 
 Maybe create a formatter too.
@@ -130,4 +134,13 @@ warnings/
   non-existent-column.go 
   etc...
 
-Parser should contain an array of checks to go through, all checks should follow an interface
+Parser should contain an array of checks to go through, all checks should follow an interface.  
+each check should have a `parse()` method which takes a string, the SQL statement.
+
+#### Error struct   
+
+{
+    column int  
+    line int    
+    message string
+}
