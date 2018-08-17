@@ -2,7 +2,6 @@
 
 A list of various programming ideas that I may or may not pursue at some point.
 
-- css-refactoring.md - A bunch of css refactoring patterns in the style of Martin Fowler's refactoring book.
 - franklins-boot.md
 - inspectee.md - A ViM plugin to show the value of variables when your cursor is on them.
 - Interactive-apache.md - Learn How to configure and use Apache through the command line.  Pretty much like githug but for Apache.
@@ -25,7 +24,6 @@ Various rants that I might expand and publish on my site
 
 - gonvim.md - Making gonvim manageable
 - indian-syllable-notation.md - takadimi takadimiginahtom - Punjabi Dhama Zakir Hussain
-- writing-with-vim.md A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
 - intro-to-lambda-calculus.md - A Gentle introduction to Lambda Calculus
 - tdd-notes.md - Notes from a TDD training course
 - angular-notes.md - Notes from an AngularJS (v1) training course
@@ -34,12 +32,12 @@ Various rants that I might expand and publish on my site
 - building-a-pc.md - A complete newbs guide to what you'll need to build a pc
 - so-build-site.md - What it actually takes to make a simple site well
 - hack-checklisst.md - Things to remember when you're being bad.
-- you-dont-need-vimwiki.md - You probably don't need it for simple cases.
 
 # Published
 
 These projects have made it and gone live, woo!
 
+- css-refactoring.md - A bunch of css refactoring patterns in the style of Martin Fowler's refactoring book.
 - 10-minutes-with-kona.md - A lightning-tour through the K/Kona language.
 - weight-value-object.md - A weight value object for Python
 - scheme-linter.md - A linter for the Lisp dialect Scheme
@@ -53,4 +51,6 @@ These projects have made it and gone live, woo!
 
 Projects that looking back, I don't want to do, or have already been done and better by someone else.
 
+- you-dont-need-vimwiki.md - You probably don't need it for simple cases.
+- writing-with-vim.md A guide to setting up a 'writing environment' for Vim (Vimwiki, Goyo etc...)
 - abandoned.md

@@ -110,6 +110,13 @@ INSERT INTO address (`non_existent_column`) VALUES (3)
 
 etc...
 
+**Trailing comma**
+
+```
+UPDATE price_band SET band_1_modifier = 0.95, default_band_2_modifier = 0.85, WHERE id = 43;";
+12:43 Trailing comma after column `default_band_2_modifier`
+```
+
 **Bring back MySQL errors too**
 
 If MySQL brings back any errors, then we should too.
@@ -144,3 +151,49 @@ each check should have a `parse()` method which takes a string, the SQL statemen
     line int    
     message string
 }
+
+
+#### Example (kinda)
+
+```
+package main    
+
+import "fmt"
+
+type Checker interface {
+    Check() int
+}
+
+type CheckError struct {
+    line int    
+    column int  
+    message string
+}
+
+type MissingColumn struct {
+    SqlQuery string
+}
+
+type MissingTable struct {
+    SqlQuery string
+}
+
+func (mc MissingColumn) Check() int {
+    return 1
+}
+
+func (mt MissingTable) Check() int {
+    return 2
+}
+
+func main() {
+    a := MissingColumn{"SELECT * FROM SOMETHING"}
+    b := MissingTable{"SELECT * FROM SOMETHING"}
+
+    checks := []Checker{a ,b}
+
+    for _, check := range checks {
+        fmt.Println(check.Check())
+    }
+}
+```
