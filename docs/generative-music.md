@@ -11,6 +11,8 @@ Recently I've been interested in it. Here are some ramblings.
 - [Audulus](), this looks to be Mac only but it's worth listing anyway.
 - [Tone.js](), Looks like the JS equivalent of overtone
 - [SoX](), A command line audio manipulation tool
+- [Supercollider](), A high level programming interface, similar to overtone I
+  think?
 
 ## Artists
 
