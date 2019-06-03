@@ -31,3 +31,7 @@ Use the data on meteorite landings
 to generate some music.
 
 ## Rambles
+
+Things I've learn
+
+`metro` can take optional arguments, one of them being `permin` so you don't have to do dodgy math to get a nice human readable tempo, huzzah!
