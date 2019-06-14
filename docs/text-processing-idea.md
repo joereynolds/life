@@ -46,9 +46,14 @@ my_important_class
 > echo "my_important_class" | tf camel
 myImportantClass
 
-> echo "you her him :" | tf join
+> echo "my_important_class" | tf dash
+my-important-class
+
+> echo "you her him" | tf join ":"
 you:her:him
 
+> echo "this is an example where every 3rd word gets replaced" | tf 3n "my"
+this is my example where my 3rd word my replaced
 ```
 
 
