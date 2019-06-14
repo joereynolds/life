@@ -17,7 +17,7 @@
     - 3 themes in the path      
         1. Ethical Conduct
             1.1. Right Speech
-            1.2. Right Action
+            1.2. Right Action/Resolve/Intention
             1.3. Right Livelihood
         2. Mental Discipline
             2.1. Right Effort
@@ -32,3 +32,4 @@
         - Direct physical/emotional pain
     - Second dart
         - Reacting and going over the issue, looking for something to blame
+        - Ignore the second dart, you don't need to experience it
