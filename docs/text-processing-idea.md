@@ -56,6 +56,12 @@ you:her:him
 this is my example where my 3rd word my replaced
 ```
 
+```
+tf nth word 3 "please"
+
+
+```
+
 
 ## Which language?
 

@@ -2,7 +2,7 @@
 
 Recently I've been interested in it. Here are some ramblings.
 
-## Tools
+## Software
 
 - [Orca](https://github.com/hundredrabbits/Orca) paired with [Pilot](https://github.com/hundredrabbits/pilot) provides a lightweight environment to create.
 - [Overtone]() a live coding environment built on lisp. I found it a bit heavy and convoluted (though I can see its power).
@@ -14,9 +14,17 @@ Recently I've been interested in it. Here are some ramblings.
 - [Supercollider](), A high level programming interface, similar to overtone I
   think?
 
+## Hardware
+
+- Organelle - Works directly with pure data
+- Monome norms
+- Monome grid
+- Axoloti core
+
 ## Artists
 
  - [acreil](https://acreil.bandcamp.com/album/aleatoric-aubades) - Write some generative music in Puredata
+ - Autechre - Use max/msp in a lot of their music
 
 ## Problems and Troubleshooting
 
