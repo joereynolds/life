@@ -52,7 +52,7 @@ my-important-class
 > echo "you her him" | tf join ":"
 you:her:him
 
-> echo "this is an example where every 3rd word gets replaced" | tf 3n "my"
+> echo "this is an example where every 3rd word gets replaced" | tf nth word 3 replace "my"
 this is my example where my 3rd word my replaced
 ```
 
@@ -61,11 +61,17 @@ tf nth word 3 "please"
 
 
 ```
+### Text objects
+
+Text objects are things that can be operated on, there are `word`s (anything
+delimited by a space), `char`acters and `line`s (delimited by \n).
+
+By default if no text object is specified, it operates on all of the input.
 
 
 ## Which language?
 
-We'll try scheme.
+We'll try scheme and/or go (bored of Typescript)
 
 Go
 - Small binaries
@@ -79,3 +85,8 @@ Typescript
 Scheme (chicken-scheme) (Maybe racket but chicken scheme gets me off dunno why)
 - Small binaries
 - polymorphic? find out
+
+## Rambles
+
+- For now keep it simple and only work off of stdin. Can be expanded at some
+  other point if we need to.
