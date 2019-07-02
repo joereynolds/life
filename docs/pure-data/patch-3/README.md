@@ -1,3 +1,5 @@
+![Imgur](https://i.imgur.com/JJ6Yw5K.jpg)
+
 Third patch done (It was actually the fourth, the third was too ambitious so I
 never finished it). It's bass heavy so apologies to pretty much everyone
 listening on a phone who's only going to hear a snare drum.
