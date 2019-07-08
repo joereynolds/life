@@ -13,6 +13,7 @@ Recently I've been interested in it. Here are some ramblings.
 - [SoX](), A command line audio manipulation tool
 - [Supercollider](), A high level programming interface, similar to overtone I
   think?
+- [vcvrack](), An open source software based modular synthesiser
 
 ## Hardware
 
