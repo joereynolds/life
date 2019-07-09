@@ -32,6 +32,9 @@ Recently I've been interested in it. Here are some ramblings.
 - Make sure your user is in the `audio` group if you're using `Jack` for the
   audio. (`cat /etc/group`)
 
+- For vcvrack you'll need to manually connect vcv to the system through the
+  connections menu in qjackctl
+
 - If you want to use a screen recorder, `simplescreenrecorder` is a good bet. It
   works with JACK audio and with `i3wm`. Remember to select JACK as the audio
   output though otherwise nothing will come through.
