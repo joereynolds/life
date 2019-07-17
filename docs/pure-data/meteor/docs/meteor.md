@@ -27,7 +27,7 @@ what we've got to work with (You can see the complete list in
 ```
 
 As you can see, there's not much variation here and we're interested numbers
-spanning from 20 all the way up to 20,000 so we normalise it and arrive at:
+spanning from 20 all the way up to 20,000 so we normalise it with [this normalisation script](../code/normalise.py) and arrive at:
 
 ```
 
