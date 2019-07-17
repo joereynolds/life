@@ -14,7 +14,6 @@ A list of various programming ideas that I may or may not pursue at some point.
   above/below a certain threshold we can warn that they're probably similar
   rules.
 - MKLang.md - A programming language based around Mortal Kombat.
-- Music command line tool.md - A command line interface for viewing various
   music theory things
 - musicss.md - A CSS framework for music notation
 - Open Game Music V2 - Similar to my previous attempt. except built ontop of
@@ -24,10 +23,8 @@ A list of various programming ideas that I may or may not pursue at some point.
   submit things that *need* to be programmed which would help the
   world...basically. It's like RHOK before RHOK for some reason turned into a
   weekly hackathon
-- task-manager.md
 - reponere.md - A racket snippet program. Allows you to type a snippet and have
   it replaced.
-- sql-linter.md 
 
 ## Articles
 
@@ -54,8 +51,10 @@ These projects have made it and gone live, woo!
 - css-refactoring.md - A bunch of css refactoring patterns in the style of
   Martin Fowler's refactoring book.
 - entree.md - A wrapper around entr to version control watches
+- music-command-line-tool.md - A command line interface for viewing various
 - scheme-linter.md - A linter for the Lisp dialect Scheme
 - sqhell.md - A lightweight/basic sql wrapper for vim
+- sql-linter.md 
 - vim-view-plugin.md - A view file for vim...
 - weight-value-object.md - A weight value object for Python
 - you-dont-need-vimwiki.md - You probably don't need it for simple cases.
@@ -65,4 +64,4 @@ These projects have made it and gone live, woo!
 Projects that looking back, I don't want to do, or have already been done and
 better by someone else.
 
-- abandoned.md
+- abandoned.md 

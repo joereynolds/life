@@ -5,5 +5,6 @@
 - component-library-script.md - An MVC application that makes searching through CSI's components slightly less painful. I haven't worked there in 2 years (as of writing).
 - inspectee.md - A ViM plugin to show the value of variables when your cursor is
   on them. LSP is a thing now.
+- task-manager.md. There are hundreds of these.
 - writing-with-vim.md A guide to setting up a 'writing environment' for Vim
   (Vimwiki, Goyo etc...). I like plain vim.
