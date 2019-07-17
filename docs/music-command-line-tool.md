@@ -1,6 +1,6 @@
 ## Index
 
-[[Example]]
+example.md
 
 ## Intro
 
