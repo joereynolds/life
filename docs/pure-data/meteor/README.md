@@ -30,7 +30,7 @@ form). It has a quick attack and a slow decay.
 
 Conditional logic was used to determine which oscillator gets to play what.
 
-`expr` does the bulk of the work while `spigot` opens and closes the gates.
+`expr` did the bulk of the logic before I simplified it down to ==,  while `spigot` opens and closes the gates.
 
 For a full write-up, see
 [here](https://github.com/joereynolds/life/docs/pure-data/meteors/docs/meteor.md)
