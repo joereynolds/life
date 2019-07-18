@@ -58,5 +58,3 @@ it's on my site. I'll probably look at automating this process soon.
 ## Conclusion
 
 And that's my fairly simple setup for writing. If anyone knows of any revolutionary tools that I'm missing out on, then feel free to let me know!
-
-:wq
