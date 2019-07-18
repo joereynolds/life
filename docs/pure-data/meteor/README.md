@@ -23,7 +23,7 @@ Even though the focus for this wasn't to learn pure data (like the other patches
 `panner` is responsible for panning and uses simple linear panning.
 
 `blip` is the glockenspiel-like chime that you can hear. This is the fundamental
-frequency and the 9th and 25th partials (just like how a triangle wave starts to
+frequency coupled with the 9th and 25th partials (just like how a triangle wave starts to
 form). It has a quick attack and a slow decay.
 
 2) The use of `expr` and `spigot`
