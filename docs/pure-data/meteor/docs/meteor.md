@@ -8,9 +8,9 @@
 
 Meteorite landings were obtained from [here](https://datarepository.wolframcloud.com/resources/Meteorite-Landings).
 
-Once downloaded, The coordinate data for all meteorite landings in the 1980's were pruned out (The other data wasn't relevant).
+Once downloaded, The coordinate data for all meteorite landings in the 1980's were pruned out (other data wasn't relevant).
 
-Pruning was done manually via vim.
+Pruning was done manually via vim using `:%s` and `:g/search-term/d`.
 
 #### 2.Normalisation
 
@@ -26,7 +26,7 @@ what we've got to work with (You can see the complete list in
 31.25
 ```
 
-As you can see, there's not much variation here and we're interested numbers
+As you can see, there's not much variation here and we're interested in numbers
 spanning from 20 all the way up to 20,000 so we normalise it with [this normalisation script](../code/normalise.py) and arrive at:
 
 ```
@@ -40,7 +40,7 @@ This gives us 50 unique frequencies to play around with.
 
 ### Pure Data
 
-5 oscillators play one after another.
+On the audio side of things, we have 5 voices.
 
 oscillator 1 plays every note that is divisble by 1.
 oscillator 2 plays every note that is divisble by 2.
