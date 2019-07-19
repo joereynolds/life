@@ -9,6 +9,8 @@
 - Panning
 - Waves
 - Noise
+- Software
+    - Visualisation
 - Questions
 
 ## Formulas
@@ -80,6 +82,13 @@ A random signal where all frequencies are equal intensity.
 
 Similar to white noise but power density falls off at 3db per octave leaving it
 bass-heavy.
+
+## Software
+
+### Visualisation
+
+- Sonic Visualiser - Great for analysis of audio
+- ProjectM - An Audio visualiser (I had to install from source using `./configure  --enable-pulseaudio  --enable-qt --enable-gles `)
 
 ## Questions?
 
