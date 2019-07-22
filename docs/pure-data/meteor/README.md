@@ -8,29 +8,37 @@ meteorite landing had a coordinate associated with it. This coordinate is
 converted to a frequency and played over a period of time.
 
 There are 5 voices going off at any one time. Since there are 50 entries, each
-voice can have an entry.
+voice can have an entry and repeat 10 times before the song is over.
 
-Oscillator 1 plays every entry that is divisble by 1.
-Oscillator 2 plays every entry that is divisble by 2.
-Oscillator 3 plays every entry that is divisble by 3.
-Oscillator 4 plays every entry that is divisble by 4.
-Oscillator 5 plays every entry that is divisble by 5.
+Underneath the voices is a constant 75hz drone being LFO'd to the BPM of the
+song.
 
-Even though the focus for this wasn't to learn pure data (like the other patches), a few things were still learnt.
+The focus for this wasn't to learn Pure Data (like the other patches), even so,
+things were learnt.
 
 1) A few abstractions were made:
 
 `panner` is responsible for panning and uses simple linear panning.
 
 `blip` is the glockenspiel-like chime that you can hear. This is the fundamental
-frequency coupled with the 9th and 25th partials (just like how a triangle wave starts to
-form). It has a quick attack and a slow decay.
+frequency coupled with the 9th and 25th partials (just like how a triangle wave
+starts to form). It has a quick attack and a slow decay.
 
 2) The use of `expr` and `spigot`
 
-Conditional logic was used to determine which oscillator gets to play what.
+`expr` did the bulk of the logic before I simplified it down to ==, an equality
+check.
 
-`expr` did the bulk of the logic before I simplified it down to ==,  while `spigot` opens and closes the gates.
+`spigot` allows a value through if a condition is met. This is used to determine
+which oscillator should play what frequency and when.
+
+3) Reading data from files
+
+Reading a text file is surprisingly easy in Pure Data. All of the audio for this
+song is coming from text files, decoupling the logic from the data.
+
+Visuals for this were done with projectM and the rogue-wave preset. It matched
+what was in my head.
 
 For a full write-up, see
 [here](https://github.com/joereynolds/life/docs/pure-data/meteors/docs/meteor.md)
