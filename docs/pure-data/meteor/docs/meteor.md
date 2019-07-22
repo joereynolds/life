@@ -40,13 +40,19 @@ This gives us 50 unique frequencies to play around with.
 
 ### Pure Data
 
-On the audio side of things, we have 5 voices.
+#### Abstractions
 
-oscillator 1 plays every note that is divisble by 1.
-oscillator 2 plays every note that is divisble by 2.
-oscillator 3 plays every note that is divisble by 3.
-oscillator 4 plays every note that is divisble by 4.
-oscillator 5 plays every note that is divisble by 5.
+`blip` - 
 
+`panner` - A simple linear panner
+
+### Visualisation
+
+Visuals are made using projectM. Nothing special here, it uses a preset called
+rogue-wave which visually, matched what I had in my head.
+
+# Ideas
+
+- Make the notes 
 
 

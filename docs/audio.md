@@ -6,6 +6,7 @@
     - Calculating overtones
     - Midi to frequency conversion
 - Envelopes
+- Filters
 - Panning
 - Waves
 - Noise
@@ -44,6 +45,20 @@ def midi_to_frequency(midi_note):
 (D)ecay - 
 (S)ustain - 
 (R)elease - 
+
+## Filters
+
+Acts on a signal and returns a new signal.
+
+Amplitude response:
+
+Impulse response:
+
+Different types
+
+### 1. Low Pass Filter
+
+Leaves low frequencies untouched but rejects high frequencies.
 
 ## Panning
 
