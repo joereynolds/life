@@ -13,8 +13,8 @@ voice can have an entry and repeat 10 times before the song is over.
 Underneath the voices is a constant 75hz drone being LFO'd to the BPM of the
 song.
 
-The focus for this wasn't to learn Pure Data (like the other patches), even so,
-things were learnt.
+The focus for this wasn't to learn Pure Data (like the other patches), but
+ironically that's what happened the most.
 
 1) A few abstractions were made:
 
@@ -37,18 +37,16 @@ which oscillator should play what frequency and when.
 Reading a text file is surprisingly easy in Pure Data. All of the audio for this
 song is coming from text files, decoupling the logic from the data.
 
-Visuals for this were done with projectM and the rogue-wave preset. It matched
-what was in my head.
+4) Wireless connections
 
-4) Sends and receives
-
-Probably the biggest godsend to this patch. LOOK HOW CLEAN MY PATCH IS.
-sends and receives allow you to do wireless connections by creating variables
+Probably the biggest godsend to this patch are learning about `send~`, 
+`receive~`, `throw~`, and `catch~`. LOOK HOW CLEAN THE PATCH IS.
+These objects allow you to do wireless connections by creating variables
 that can be read from anywhere within the scope of a pure data patch. It feels
 slightly hacky but it's better than the mess of wires that were there before.
 
+Visuals for this were done with projectM and the rogue-wave preset. It matched
+what was in my head.
+
 For a full write-up, see
 [here](https://github.com/joereynolds/life/docs/pure-data/meteors/docs/meteor.md)
-
-Possible visuals (Projectm)
-- rogue wave

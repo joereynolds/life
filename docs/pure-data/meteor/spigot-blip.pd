@@ -1,0 +1,14 @@
+#N canvas 2 155 1362 592 10;
+#X obj 148 178 blip;
+#X obj 148 150 spigot;
+#X floatatom 192 151 5 0 0 0 - - -;
+#X obj 181 98 receive modulus;
+#X obj 148 77 receive meteor-freq;
+#X obj 181 122 == \$1;
+#X obj 147 203 outlet~;
+#X connect 0 0 6 0;
+#X connect 1 0 0 0;
+#X connect 3 0 5 0;
+#X connect 4 0 1 0;
+#X connect 5 0 2 0;
+#X connect 5 0 1 1;
