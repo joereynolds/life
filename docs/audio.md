@@ -89,7 +89,7 @@ bass-heavy.
 ### Visualisation
 
 - Sonic Visualiser - Great for analysis of audio
-- ProjectM - An Audio visualiser (I had to install from source using `./configure  --enable-pulseaudio  --enable-qt --enable-gles `)
+- ProjectM - An Audio visualiser (I had to install from source using `./configure  --enable-jack --enable-qt --enable-gles `)
 
 ## Questions?
 

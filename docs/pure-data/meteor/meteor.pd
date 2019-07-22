@@ -1,5 +1,5 @@
 #N canvas 2 83 1362 664 10;
-#X obj 36 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+#X obj 36 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
 ;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array notes 50 float 3;
@@ -14,31 +14,31 @@
 #X obj 65 85 + 1;
 #X floatatom 36 133 5 0 0 0 - - -;
 #X obj 36 109 mod 50;
-#X obj 432 538 dac~;
+#X obj 435 582 dac~;
 #X floatatom 36 185 5 0 0 0 - - -;
 #X msg 205 22 \; notes read ./data/meteors-1980-notes-normalised.csv
 ;
 #X obj 822 427 blip;
-#X obj 131 146 mod 5;
+#X obj 124 146 mod 5;
 #X obj 822 452 panner;
 #X obj 858 427 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 36 432 blip;
-#X obj 36 457 panner;
+#X obj 35 459 panner;
 #X obj 85 431 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 600 1;
 #X obj 230 434 blip;
 #X obj 230 459 panner;
 #X obj 280 431 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 4700 1;
 #X obj 427 432 blip;
 #X obj 427 457 panner;
 #X obj 477 429 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 7800 1;
 #X obj 626 428 blip;
 #X obj 626 453 panner;
 #X obj 676 425 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 10800 1;
 #X obj 36 63 metro 1 40 permin;
 #X obj 36 408 spigot;
 #X obj 230 406 spigot;
@@ -50,40 +50,59 @@
 #X floatatom 471 406 5 0 0 0 - - -;
 #X floatatom 669 407 5 0 0 0 - - -;
 #X floatatom 866 404 5 0 0 0 - - -;
-#X obj 446 138 osc~ 75;
+#X obj 358 75 osc~ 75;
 #X obj 68 382 == 0;
 #X obj 263 378 == 1;
 #X obj 460 377 == 2;
 #X obj 659 379 == 3;
 #X obj 855 376 == 4;
-#X obj 461 202 osc~ 2;
-#X obj 461 181 line;
-#X obj 447 224 *~;
-#X msg 459 160 1 \, 10 1000;
-#X obj 448 261 *~ 0.3;
+#X obj 373 139 osc~ 2;
+#X obj 373 118 line;
+#X obj 359 161 *~;
+#X msg 371 97 1 \, 10 1000;
+#X obj 360 186 *~ 0.3;
 #X text 836 20 Todo: Make the duration between each note longer Add
 more layers (delays etc...) Figure out how to initialise the panning
 ;
+#N canvas 2 101 1362 646 wind 0;
+#X obj 191 100 noise~;
+#X obj 191 122 lop~ 15;
+#X obj 175 170 outlet~;
+#X obj 175 147 *~;
+#X obj 176 80 osc~ 440;
+#X connect 0 0 1 0;
+#X connect 1 0 3 1;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X restore 260 185 pd wind;
+#X obj 360 209 send~ lfo;
+#X obj 643 587 receive~ lfo;
+#X obj 124 167 send modulus;
+#X obj 426 74 receive modulus;
+#X obj 68 359 receive modulus;
+#X obj 460 353 receive modulus;
+#X obj 659 357 receive modulus;
+#X obj 855 353 receive modulus;
+#X obj 263 353 receive modulus;
+#X obj 36 215 send meteor-freq;
+#X obj 36 337 receive meteor-freq;
+#X obj 230 332 receive meteor-freq;
+#X obj 427 332 receive meteor-freq;
+#X obj 626 336 receive meteor-freq;
+#X obj 822 332 receive meteor-freq;
+#X obj 260 209 send~ wind;
+#X obj 346 469 receive~ wind;
 #X connect 0 0 26 0;
 #X connect 2 0 8 0;
 #X connect 3 0 4 0;
 #X connect 3 0 6 0;
 #X connect 4 0 3 1;
-#X connect 5 0 2 0;
 #X connect 5 0 11 0;
+#X connect 5 0 2 0;
 #X connect 6 0 5 0;
-#X connect 8 0 27 0;
-#X connect 8 0 28 0;
-#X connect 8 0 30 0;
-#X connect 8 0 29 0;
-#X connect 8 0 31 0;
+#X connect 8 0 59 0;
 #X connect 10 0 12 0;
-#X connect 11 0 38 0;
-#X connect 11 0 39 0;
-#X connect 11 0 40 0;
-#X connect 11 0 41 0;
-#X connect 11 0 42 0;
-#X connect 11 0 46 0;
+#X connect 11 0 52 0;
 #X connect 12 0 7 0;
 #X connect 12 1 7 1;
 #X connect 13 0 12 1;
@@ -124,5 +143,20 @@ more layers (delays etc...) Figure out how to initialise the panning
 #X connect 44 0 43 0;
 #X connect 45 0 47 0;
 #X connect 46 0 44 0;
-#X connect 47 0 7 0;
-#X connect 47 0 7 1;
+#X connect 47 0 50 0;
+#X connect 49 0 65 0;
+#X connect 51 0 7 0;
+#X connect 51 0 7 1;
+#X connect 53 0 46 0;
+#X connect 54 0 38 0;
+#X connect 55 0 40 0;
+#X connect 56 0 41 0;
+#X connect 57 0 42 0;
+#X connect 58 0 39 0;
+#X connect 60 0 27 0;
+#X connect 61 0 28 0;
+#X connect 62 0 30 0;
+#X connect 63 0 29 0;
+#X connect 64 0 31 0;
+#X connect 66 0 7 0;
+#X connect 66 0 7 1;

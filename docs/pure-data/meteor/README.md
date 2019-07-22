@@ -34,3 +34,6 @@ Conditional logic was used to determine which oscillator gets to play what.
 
 For a full write-up, see
 [here](https://github.com/joereynolds/life/docs/pure-data/meteors/docs/meteor.md)
+
+Possible visuals (Projectm)
+- rogue wave
