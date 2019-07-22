@@ -40,6 +40,13 @@ song is coming from text files, decoupling the logic from the data.
 Visuals for this were done with projectM and the rogue-wave preset. It matched
 what was in my head.
 
+4) Sends and receives
+
+Probably the biggest godsend to this patch. LOOK HOW CLEAN MY PATCH IS.
+sends and receives allow you to do wireless connections by creating variables
+that can be read from anywhere within the scope of a pure data patch. It feels
+slightly hacky but it's better than the mess of wires that were there before.
+
 For a full write-up, see
 [here](https://github.com/joereynolds/life/docs/pure-data/meteors/docs/meteor.md)
 
