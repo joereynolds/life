@@ -12,4 +12,6 @@ NOFX - 100 Times Fuckeder 1:27 (Vocalists voice breaks on the word 'Dismissed')
 
 Red Hot Chili Peppers - Give It Away 3:32 (Bassist slides over the target note)
 
+Slayer - Angel Of Death 3:17 (Another dodgy cut, the whole thing skips, Spotify?)
+
 Slayer - Disciple 2:29 (Dodgy cut in the actual recording, maybe this is just Spotify's version though, it skips very slightly)
