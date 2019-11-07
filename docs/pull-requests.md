@@ -1,12 +1,13 @@
 # Code review on the CLI
 
 Some things I do when reviewing code. Mostly assumes use of PHP.
+Assumes `ripgrep` and `fd` are on your computer, if not, rework them to use `grep` and
+`find` instead.
 
 Ask yourself:
 
 - Is the build okay? (lint, style, tests)
     - Run the build script locally to verify
-
 
 ## Git
 
@@ -20,6 +21,18 @@ You can then open this in Vim and cycle through it with `:bnext` and `:bprevious
 
 ```
 vim $(git diff --name-only origin/develop)
+```
+
+Or sublime
+
+```
+subl $(git diff --name-only origin/develop)
+```
+
+Or vscode (You can see where this is going)
+
+```
+code $(git diff --name-only origin/develop)
 ```
 
 ## Filenames
@@ -53,6 +66,23 @@ rg 'throw new'
 ### Places where they're handled
 ```
 rg 'catch.*\(' -C 5
+```
+
+## Commented out code
+
+There should be none
+
+### Single comment dead code
+
+```
+rg --fixed-strings //
+```
+
+### Mutliline comment dead code
+
+(can be quite noisy)
+```
+rg --fixed-strings -C 5 '/*'
 ```
 
 ## Tests
@@ -89,7 +119,7 @@ do
 done
 ```
 
-Or a version using `find`
+Or a version using `find` (more portable, but slower)
 
 ```
 #!/usr/bin/env bash
@@ -108,5 +138,3 @@ do
     [ "$testFile" == "" ] && echo "$file has no test associated with it"
 done
 ```
-
-
