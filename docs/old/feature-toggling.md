@@ -1,7 +1,8 @@
 # A feature library for PHP
 
-## Possible API
+- Features should live in a json file in the project root
 
+## Possible API
 
 ### Basic check
 ```
