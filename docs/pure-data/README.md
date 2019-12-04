@@ -7,8 +7,13 @@ Rambles about my patches and my journey of pure data.
 
 ## Recording the videos
 
-I use `simplescreenrecorder` for recording the videos. Set its output to JACK (to match puredata's). It works fine with i3wm.
-On top of this, I have to upload the video to google drive so I can download it to my phone (not joking).
+I use `simplescreenrecorder` for recording the videos. Set its output to JACK
+(to match puredata's). It works fine with i3wm.  On top of this, I have to
+upload the video to google drive so I can download it to my phone (not joking).
+
+The video is recorded by opening up `simplescreenrecorder` going through all of
+the menus, and then there's a recording hotkey (ctrl-r) you can press to start
+recording. I fullscreen the visualiser and then press this when ready.
 
 ## Directory structure
 

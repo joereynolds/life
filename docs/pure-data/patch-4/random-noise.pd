@@ -1,0 +1,12 @@
+#N canvas 2 191 1362 556 10;
+#X obj 476 288 outlet~;
+#X obj 477 156 phasor~ 50;
+#X obj 476 189 +~;
+#X obj 408 156 phasor~ 51;
+#X obj 547 155 phasor~;
+#X obj 563 104 inlet modulator;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;

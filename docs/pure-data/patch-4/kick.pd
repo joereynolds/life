@@ -1,0 +1,17 @@
+#N canvas 2 137 1362 610 10;
+#X obj 274 346 outlet~;
+#X obj 275 205 inlet frequency;
+#X obj 275 263 osc~ \$1;
+#X obj 274 323 *~ 0.2;
+#X obj 344 290 line;
+#X obj 276 291 *~ 0.2;
+#X msg 345 264 1 \, 0 1000;
+#X text 428 230 TODO: Make the 1000 value in the message box be calculated
+based off of the tempo instead so it stops at the right time.;
+#X connect 1 0 2 0;
+#X connect 1 0 6 0;
+#X connect 2 0 5 0;
+#X connect 3 0 0 0;
+#X connect 4 0 3 1;
+#X connect 5 0 3 0;
+#X connect 6 0 4 0;
