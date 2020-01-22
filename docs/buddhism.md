@@ -1,3 +1,4 @@
+
 - 3 Branches/Schools
     - Theravada
         - Focuses on oneself
@@ -33,3 +34,13 @@
     - Second dart
         - Reacting and going over the issue, looking for something to blame
         - Ignore the second dart, you don't need to experience it
+
+## Verses
+
+./buddhism/sigalovada-sutta-20.md (four friends)
+./buddhism/thag-95.md             (evil companions)
+
+## Terms
+
+sutta - Teachings, verses etc...
+thag  - A short poem extracted from the Theragatha
