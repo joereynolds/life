@@ -49,7 +49,7 @@ built from the misconceptions of uninformed persons
 wandering aimlessly through an ignorant ocean
 
 You are beauty
-A thing that fades but has sculpted a character stronger than any marble
+A thing that will fade but has sculpted a character stronger than any marble
 
 Emanating elegance, destroying irreverance and binding any wrongdoers to penance
 
