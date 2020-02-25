@@ -66,3 +66,13 @@ untrue
 For as long as there is a believer in your person
 there is a believer in you
 ```
+
+# Rattlesnake
+
+```
+I weave between grass lain by other beings
+My rattle does not sound, I have evolved
+
+I am a serpent with a venom so subtle it takes years to develop
+My poison is tasteless and you can consider my bites to be dull
+```
