@@ -38,13 +38,13 @@ You know this to be true because I am you
 You are my deity
 Etched in wirings of my brain
 
-Your very aura acts upon my acts of altruism
+Your aura acts upon my acts of altruism
 redacting any likeliness of a forming schism
 
 You are divinity
 Breaking down preconceptions in my mind
 
-Your very being conquers preconceived notions
+Your being conquers preconceived notions
 built from the misconceptions of uninformed persons 
 wandering aimlessly through an ignorant ocean
 
