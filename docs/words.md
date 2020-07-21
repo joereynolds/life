@@ -75,4 +75,36 @@ My rattle does not sound, I have evolved
 
 I am a serpent with a venom so subtle it takes years to develop
 My poison is tasteless and you can consider my bites to be dull
+
+I've roamed around the ground for years
+Sabotaging cattle and feeding my greed for longer than is necessary
+```
+
+# Narcissist
+
+```
+I am a well bred and well fed man
+I've got two legs, a normal sized head and pristine hands
+
+Everywhere I go I put one foot in front of the other
+I'm so well put together, I wish I was my lover
+
+Yesterday I was walking down the street and a man reached out with his cup
+"Good joke buddy, you're gonna need more than good luck!", I ignored the fact he
+was my brother
+
+As I carried on down the road to my silky smooth job where I swear at stupid
+people I wondered if I perhaps I was being to mean
+
+Look at me being thoughtful, how could you not love me?
+```
+
+# Rooted
+
+```
+You brought me down again
+You swang sweet lullabies in my ear as I sat and doubted
+
+I was cold to begin with but I began to warm to your suggestions
+Maybe I did overreact. I'm better now
 ```
