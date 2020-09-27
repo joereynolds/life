@@ -37,6 +37,9 @@ if ($feature->exists('my-feature-name')->enableBetween('2018-12-01', '2018-12-31
 }
 ```
 
-## Misc
 
-- Fork leibniz?
+## Questions
+
+- Features in each codebase or one codebase with all the features in it?
+  In Sykes it was one codebase that had a features.json file in it. Maybe do it
+  per codebase this time, inline with how most other things work.
