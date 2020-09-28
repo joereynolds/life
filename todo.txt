@@ -1,11 +1,11 @@
-A Short Stay In Hell +book 
+A Short Stay In Hell +book
 A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
 AWS +read
 Add brightness keys to i3 config +todo
 Alberto Iglesias Fernández-Berridi +music
 Alexandrite +misc
 Amazon Glacier +read
-Banshee +tv 
+Banshee +tv
 Birdbox +film
 Book of Mormon +fun
 Buy a metronome domain and host it on the same one as bogans +todo
@@ -15,7 +15,6 @@ Cave Explore +fun
 Chernobyl +tv
 Chest freezer +buy
 Chester Zoo +fun
-Couple of wireless music players +buy
 Cyrus +film
 David Grier +music
 Diggerland +fun
@@ -27,14 +26,13 @@ Email council about more bins +todo
 Escape Room +fun
 FCA +read
 Final Space +tv
-Fire Under The Snow +book 
+Fire Under The Snow +book
 Gambling bot +todo
 Get rid of shit +todo
 Go-karting +fun
 Green Room +film
 Gun range +fun
 Handgliding +fun
-Hdmi cable switchee +buy
 Henri texier amir +music
 Hey Arnold tattoo. Hey Arnold's body and Arnold Schoenberg's head +todo
 Hitler's reading a woman'sblog and on the screen it says "only YOU know what's right for your baby". Thenaybe another panel showing him putting a swastika on his son or something +comic
@@ -52,32 +50,29 @@ Michael +film
 Mountains +fun
 Naked lunch +film
 New bulbs for Amy's lamp +buy
-Not Without My Sister +book 
+Not Without My Sister +book
 OKRs +read
 Oragnise bike fix +todo
 Paintballing +fun
-Permanent Record +book 
-Pikhal: A Chemical Love Story +book 
+Permanent Record +book
+Pikhal: A Chemical Love Story +book
 Precious +film
 Rent a Treehouse +fun
 Safari park near Liverpool +fun
-See
 Sell phone +todo
 Sell phone +todo
 Sense8 +tv
-Shoe Dog +book 
+Shoe Dog +book
 Shortcircuit 1 2 3 - Beattie told me to +film
 Snowboarding/Skiing +fun
-Snowpiercer
 Sort car camera +todo
 Spotlight +film
-Spycatcher +book 
+Spycatcher +book
 Subscribe to computer music journal +todo
 Sunshine +film
-Synecdoche, New York
 Tab out etude 3 from oboe +todo
 That film about that magazine +film
-The Priory of the Orange Tree +book 
+The Priory of the Orange Tree +book
 The Umbrella Conspiracy +book
 The boulderhut Ellesmere port +fun
 The brave little toaster +film
@@ -85,13 +80,11 @@ The devils film. Ken Russell +film
 The haunting of hill house +tv
 Trainspotting 2 +film
 Underwriters +read
-Watchman
-Wheels Within Wheels (Jacob Adler) +book 
+Wheels Within Wheels (Jacob Adler) +book
 When the devil knows you're sleeping +film
 Zeitgeist +film
 Zeitgeist 1 2 3 +film
 `man openssl` +read
-better chair +buy
 book dentist +todo
 bookshelf +buy
 brush for arnie +buy
@@ -121,8 +114,7 @@ rancher +code
 record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 start a pisstake instagram on art +fun
-untouchable
-vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/
-mention universal-ctags package
-mention you can use them in conjunction +todo 
+vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 zfs +code
+x 2020-09-28 Couple of wireless music players +buy
+x 2020-09-28 Hdmi cable switchee +buy
