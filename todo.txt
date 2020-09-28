@@ -1,90 +1,115 @@
-Dune +book
-Zeitgeist +film
-The haunting of hill house +tv
-Shortcircuit 1 2 3 - Beattie told me to +film
+A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
+AWS +read
+Add brightness keys to i3 config +todo
 Alberto Iglesias Fernández-Berridi +music
-Sunshine +film
-Zeitgeist 1 2 3 +film
-Naked lunch +film
-Spotlight +film
-The brave little toaster +film
-Green Room +film
-Dunkirk +film
-zfs +code
-rancher +code
-Final Space +tv
-Chernobyl +tv
-When the devil knows you're sleeping +film
-Cyrus +film
-That film about that magazine +film
-Michael +film
-Precious +film 
-The devils film. Ken Russell +film
-Kings of pain +tv
-Synecdoche, New York
-Snowpiercer 
-Watchman
-See
+Alexandrite +misc
+Amazon Glacier +read
 Banshee
-Sense8 +tv
-Joker +film
-untouchable
-Trainspotting 2 +film
-David Grier +music
-Henri texier amir +music
-Dinner trays +buy
-Subscribe to computer music journal +todo
-record BJ songs +todo
-etude #27 sounds nice +todo
-Tab out etude 3 from oboe +todo
+Birdbox +film
+Book of Mormon +fun
 Buy a metronome domain and host it on the same one as bogans +todo
 Cancel phone contract +todo
-Alexandrite +misc
-Make a mathematical patterns list/post to take ideas from https://www.etsy.com/uk/listing/774676810/2021-wall-planner-calendar-a1-841x594mm?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=wall+planner&ref=sr_gallery-1-7&frs=1 +todo
-Birdbox +film
-Gambling bot +todo
-Hey Arnold tattoo. Hey Arnold's body and Arnold Schoenberg's head +todo
 Cancel vpn.sh +todo
-Add brightness keys to i3 config +todo
+Cave Explore +fun
+Chernobyl +tv
+Chest freezer +buy
+Chester Zoo +fun
+Couple of wireless music players +buy
+Cyrus +film
+David Grier +music
+Diggerland +fun
+Dinner trays +buy
 Do julian video +todo
+Dune +book
+Dunkirk +film
+Email council about more bins +todo
+Escape Room +fun
+FCA +read
+Final Space +tv
+Gambling bot +todo
+Get rid of shit +todo
+Go-karting +fun
+Green Room +film
+Gun range +fun
+Handgliding +fun
+Hdmi cable switchee +buy
+Henri texier amir +music
+Hey Arnold tattoo. Hey Arnold's body and Arnold Schoenberg's head +todo
+Hitler's reading a woman'sblog and on the screen it says "only YOU know what's right for your baby". Thenaybe another panel showing him putting a swastika on his son or something +comic
+Hole in ceiling +todo
+Indoor Climbing (theboardroomclimbing.com) +fun
+JWT +read
+Joker +film
+Kings of pain +tv
+Laser pen for Arnie +buy
+Llandudno great orm +fun
+Maderia +fun
+Make a mathematical patterns list/post to take ideas from https://www.etsy.com/uk/listing/774676810/2021-wall-planner-calendar-a1-841x594mm?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=wall+planner&ref=sr_gallery-1-7&frs=1 +todo
+Make a video on vidir
+Michael +film
+Mountains +fun
+Naked lunch +film
+New bulbs for Amy's lamp +buy
+OKRs +read
+Oragnise bike fix +todo
+Paintballing +fun
+Precious +film
+Rent a Treehouse +fun
+Safari park near Liverpool +fun
+See
+Sell phone +todo
+Sell phone +todo
+Sense8 +tv
+Shortcircuit 1 2 3 - Beattie told me to +film
+Snowboarding/Skiing +fun
+Snowpiercer
+Sort car camera +todo
+Spotlight +film
+Subscribe to computer music journal +todo
+Sunshine +film
+Synecdoche, New York
+Tab out etude 3 from oboe +todo
+That film about that magazine +film
+The boulderhut Ellesmere port +fun
+The brave little toaster +film
+The devils film. Ken Russell +film
+The haunting of hill house +tv
+Trainspotting 2 +film
+Underwriters +read
+Watchman
+When the devil knows you're sleeping +film
+Zeitgeist +film
+Zeitgeist 1 2 3 +film
+`man openssl` +read
+better chair +buy
+book dentist +todo
 bookshelf +buy
-https://www.musical-u.com/learn/how-to-use-circle-fifths/ +read
-https://2ality.com/2018/04/type-notation-typescript.html +read
-https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1 +read
-https://bitbucket.org/blog/scaling-bitbuckets-database?utm_source=newsletter-email&utm_medium=email&utm_campaign=february2020-BB-digest_EML-6130&jobid=104555069&subid=1482269371 +read
+brush for arnie +buy
+downgrade phone contract +todo
+ellul philosopher +read
+etude #27 sounds nice +todo
+http://blog.davidedmundson.co.uk/blog/modern-process-management-on-the-desktop/ +read
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf +read
+http://www.mirror.co.uk/lifestyle/travel/british-breaks/youre-craving-adventure-one-cave-9907775#ICID=nsm +fun +fun
+http://www.takadimi.net/documents/Takadimi%20short%20guide%20for%20Web.pdf +read
+https://2ality.com/2018/04/type-notation-typescript.html +read
+https://bitbucket.org/blog/scaling-bitbuckets-database?utm_source=newsletter-email&utm_medium=email&utm_campaign=february2020-BB-digest_EML-6130&jobid=104555069&subid=1482269371 +read
 https://fullstackopen.com/en/part8/graph_ql_server +read
 https://github.com/compose-spec/compose-spec/blob/master/spec.md +read
-https://tomassetti.me/parsing-sql/ +read
-https://www.wired.com/story/lee-holloway-devastating-decline-brilliant-young-coder/ +read
-https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html +read
 https://grahamc.com/blog/erase-your-darlings +read
-https://parkarts.pbworks.com/w/file/fetch/120179109/Music%20Theory%20and%20Practice%20Textbook.pdf +read
 https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78 +read
-ellul philosopher +read
-http://www.takadimi.net/documents/Takadimi%20short%20guide%20for%20Web.pdf +read
-https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux +read
-http://blog.davidedmundson.co.uk/blog/modern-process-management-on-the-desktop/ +read
+https://parkarts.pbworks.com/w/file/fetch/120179109/Music%20Theory%20and%20Practice%20Textbook.pdf +read
+https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html +read
 https://systemd.io/DESKTOP_ENVIRONMENTS/ +read
-Book of Mormon +fun
-Rent a Treehouse +fun
-Maderia +fun
-Go-karting +fun
-Snowboarding/Skiing +fun
-Escape Room +fun
-Paintballing +fun
-Handgliding +fun
-Cave Explore +fun
-Diggerland +fun
-Gun range +fun
-Mountains +fun
-Indoor Climbing (theboardroomclimbing.com) +fun
-http://www.mirror.co.uk/lifestyle/travel/british-breaks/youre-craving-adventure-one-cave-9907775#ICID=nsm +fun +fun
+https://tomassetti.me/parsing-sql/ +read
+https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1 +read
+https://www.musical-u.com/learn/how-to-use-circle-fifths/ +read
+https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux +read
+https://www.wired.com/story/lee-holloway-devastating-decline-brilliant-young-coder/ +read
+pizza slicer +buy
+rancher +code
+record BJ songs +todo
+something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 start a pisstake instagram on art +fun
-Chester Zoo +fun
-The boulderhut Ellesmere port +fun
-Safari park near Liverpool +fun
-Llandudno great orm +fun
-Comic idea: something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
-Comic idea: A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
-Comic idea: Hitler's reading a woman'sblog and on the screen it says "only YOU know what's right for your baby". Thenaybe another panel showing him putting a swastika on his son or something +comic
+untouchable
+zfs +code
