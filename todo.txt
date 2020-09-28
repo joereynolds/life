@@ -1,10 +1,11 @@
+A Short Stay In Hell +book 
 A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
 AWS +read
 Add brightness keys to i3 config +todo
 Alberto Iglesias Fernández-Berridi +music
 Alexandrite +misc
 Amazon Glacier +read
-Banshee
+Banshee +tv 
 Birdbox +film
 Book of Mormon +fun
 Buy a metronome domain and host it on the same one as bogans +todo
@@ -26,6 +27,7 @@ Email council about more bins +todo
 Escape Room +fun
 FCA +read
 Final Space +tv
+Fire Under The Snow +book 
 Gambling bot +todo
 Get rid of shit +todo
 Go-karting +fun
@@ -45,14 +47,17 @@ Laser pen for Arnie +buy
 Llandudno great orm +fun
 Maderia +fun
 Make a mathematical patterns list/post to take ideas from https://www.etsy.com/uk/listing/774676810/2021-wall-planner-calendar-a1-841x594mm?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=wall+planner&ref=sr_gallery-1-7&frs=1 +todo
-Make a video on vidir
+Make a video on vidir +todo
 Michael +film
 Mountains +fun
 Naked lunch +film
 New bulbs for Amy's lamp +buy
+Not Without My Sister +book 
 OKRs +read
 Oragnise bike fix +todo
 Paintballing +fun
+Permanent Record +book 
+Pikhal: A Chemical Love Story +book 
 Precious +film
 Rent a Treehouse +fun
 Safari park near Liverpool +fun
@@ -60,16 +65,20 @@ See
 Sell phone +todo
 Sell phone +todo
 Sense8 +tv
+Shoe Dog +book 
 Shortcircuit 1 2 3 - Beattie told me to +film
 Snowboarding/Skiing +fun
 Snowpiercer
 Sort car camera +todo
 Spotlight +film
+Spycatcher +book 
 Subscribe to computer music journal +todo
 Sunshine +film
 Synecdoche, New York
 Tab out etude 3 from oboe +todo
 That film about that magazine +film
+The Priory of the Orange Tree +book 
+The Umbrella Conspiracy +book
 The boulderhut Ellesmere port +fun
 The brave little toaster +film
 The devils film. Ken Russell +film
@@ -77,6 +86,7 @@ The haunting of hill house +tv
 Trainspotting 2 +film
 Underwriters +read
 Watchman
+Wheels Within Wheels (Jacob Adler) +book 
 When the devil knows you're sleeping +film
 Zeitgeist +film
 Zeitgeist 1 2 3 +film
@@ -112,4 +122,7 @@ record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 start a pisstake instagram on art +fun
 untouchable
+vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/
+mention universal-ctags package
+mention you can use them in conjunction +todo 
 zfs +code
