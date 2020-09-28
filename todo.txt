@@ -60,7 +60,6 @@ Precious +film
 Rent a Treehouse +fun
 Safari park near Liverpool +fun
 Sell phone +todo
-Sell phone +todo
 Sense8 +tv
 Shoe Dog +book
 Shortcircuit 1 2 3 - Beattie told me to +film
