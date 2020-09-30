@@ -1,6 +1,5 @@
 A Short Stay In Hell +book
 A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
-AWS +read
 Add brightness keys to i3 config +todo
 Alberto Iglesias Fernández-Berridi +music
 Alexandrite +misc
@@ -9,24 +8,21 @@ Banshee +tv
 Birdbox +film
 Book of Mormon +fun
 Buy a metronome domain and host it on the same one as bogans +todo
-Cancel phone contract +todo
 Cancel vpn.sh +todo
 Cave Explore +fun
 Chernobyl +tv
 Chest freezer +buy
 Chester Zoo +fun
 Cyrus +film
-David Grier +music
 Diggerland +fun
 Dinner trays +buy
 Do julian video +todo
 Dune +book
 Dunkirk +film
-Email council about more bins +todo
 Escape Room +fun
-FCA +read
 Final Space +tv
 Fire Under The Snow +book
+Formatting things the vim way with gq +video
 Gambling bot +todo
 Get rid of shit +todo
 Go-karting +fun
@@ -34,6 +30,7 @@ Green Room +film
 Gun range +fun
 Handgliding +fun
 Henri texier amir +music
+Here and Now! The autobiography of Pat Martino +book
 Hey Arnold tattoo. Hey Arnold's body and Arnold Schoenberg's head +todo
 Hitler's reading a woman'sblog and on the screen it says "only YOU know what's right for your baby". Thenaybe another panel showing him putting a swastika on his son or something +comic
 Hole in ceiling +todo
@@ -45,13 +42,13 @@ Laser pen for Arnie +buy
 Llandudno great orm +fun
 Maderia +fun
 Make a mathematical patterns list/post to take ideas from https://www.etsy.com/uk/listing/774676810/2021-wall-planner-calendar-a1-841x594mm?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=wall+planner&ref=sr_gallery-1-7&frs=1 +todo
-Make a video on vidir +todo
 Michael +film
 Mountains +fun
 Naked lunch +film
 New bulbs for Amy's lamp +buy
 Not Without My Sister +book
 OKRs +read
+On Writing (Stephen King) +book
 Oragnise bike fix +todo
 Paintballing +fun
 Permanent Record +book
@@ -59,6 +56,7 @@ Pikhal: A Chemical Love Story +book
 Precious +film
 Rent a Treehouse +fun
 Safari park near Liverpool +fun
+Self-similar Melodies +book
 Sell phone +todo
 Sense8 +tv
 Shoe Dog +book
@@ -67,12 +65,14 @@ Snowboarding/Skiing +fun
 Sort car camera +todo
 Spotlight +film
 Spycatcher +book
-Subscribe to computer music journal +todo
+Stoner (John Williams) +book
+Subscribe to computer music journal (see if manchester library has a subscription) +todo
 Sunshine +film
 Tab out etude 3 from oboe +todo
 That film about that magazine +film
 The Priory of the Orange Tree +book
 The Umbrella Conspiracy +book
+The Wizards and the Warriors (Hugh Cook) +book
 The boulderhut Ellesmere port +fun
 The brave little toaster +film
 The devils film. Ken Russell +film
@@ -83,7 +83,6 @@ Wheels Within Wheels (Jacob Adler) +book
 When the devil knows you're sleeping +film
 Zeitgeist +film
 Zeitgeist 1 2 3 +film
-`man openssl` +read
 book dentist +todo
 bookshelf +buy
 brush for arnie +buy
@@ -102,8 +101,8 @@ https://grahamc.com/blog/erase-your-darlings +read
 https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78 +read
 https://parkarts.pbworks.com/w/file/fetch/120179109/Music%20Theory%20and%20Practice%20Textbook.pdf +read
 https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html +read
-https://systemd.io/DESKTOP_ENVIRONMENTS/ +read
 https://tomassetti.me/parsing-sql/ +read
+https://www.amazon.com/Working-Stiff-Bodies-Medical-Examiner/dp/1476727260/ref=sr_1_1?ie=UTF8&qid=1489757070&sr=8-1&keywords=Working+Stiff +book
 https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1 +read
 https://www.musical-u.com/learn/how-to-use-circle-fifths/ +read
 https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux +read
@@ -112,8 +111,16 @@ pizza slicer +buy
 rancher +code
 record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
+sort ssh keys so I don't have to retype my key every time +work
 start a pisstake instagram on art +fun
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 zfs +code
 x 2020-09-28 Couple of wireless music players +buy
 x 2020-09-28 Hdmi cable switchee +buy
+x 2020-09-29 Make a video on vidir +todo
+x 2020-09-30 AWS +read
+x 2020-09-30 David Grier +music
+x 2020-09-30 Email council about more bins (looked into it, they can't they only do one bin per household) +todo
+x 2020-09-30 FCA +read
+x 2020-09-30 `man openssl` +read
+x 2020-09-30 https://systemd.io/DESKTOP_ENVIRONMENTS/ +read
