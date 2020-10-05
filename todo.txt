@@ -1,7 +1,6 @@
 A Short Stay In Hell +book
 A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
 Add brightness keys to i3 config +todo
-Alberto Iglesias Fernández-Berridi +music
 Alexandrite +misc
 Amazon Glacier +read
 Banshee +tv
@@ -77,7 +76,6 @@ The boulderhut Ellesmere port +fun
 The brave little toaster +film
 The devils film. Ken Russell +film
 The haunting of hill house +tv
-Trainspotting 2 +film
 Underwriters +read
 Wheels Within Wheels (Jacob Adler) +book
 When the devil knows you're sleeping +film
@@ -88,6 +86,7 @@ bookshelf +buy
 brush for arnie +buy
 downgrade phone contract +todo
 ellul philosopher +read
+emmet journey +todo 
 etude #27 sounds nice +todo
 http://blog.davidedmundson.co.uk/blog/modern-process-management-on-the-desktop/ +read
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf +read
@@ -109,10 +108,12 @@ https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux +r
 https://www.wired.com/story/lee-holloway-devastating-decline-brilliant-young-coder/ +read
 pizza slicer +buy
 rancher +code
+readline +video 
 record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 sort ssh keys so I don't have to retype my key every time +work
 start a pisstake instagram on art +fun
+update CV +todo
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 zfs +code
 x 2020-09-28 Couple of wireless music players +buy
@@ -124,3 +125,5 @@ x 2020-09-30 Email council about more bins (looked into it, they can't they only
 x 2020-09-30 FCA +read
 x 2020-09-30 `man openssl` +read
 x 2020-09-30 https://systemd.io/DESKTOP_ENVIRONMENTS/ +read
+x 2020-10-04 Alberto Iglesias Fernández-Berridi +music
+x 2020-10-04 Trainspotting 2 +film

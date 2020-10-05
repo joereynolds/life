@@ -1,3 +1,17 @@
+# Workflow
+
+- I open a split on my HP-envy (need to confirm resolution) that looks like this
+```
+I-----I------I
+I     I      I
+I-----I      I
+I     I      I
+I-----I------I
+```
+Top left is the demo video. Bottom right is just filler so that top left is
+nicely sized. Right is simplescreenrecorder.
+
+
 # vim-sandwich
 
 1) What is it
