@@ -86,6 +86,7 @@ Zeitgeist 1 2 3 +film
 book dentist +todo
 bookshelf +buy
 command line code review +video 
+corkscrew +buy 
 de
 downgrade phone contract +todo
 ellul philosopher +read
@@ -116,6 +117,7 @@ record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 sort ssh keys so I don't have to retype my key every time +work +todo
 start a pisstake instagram on art +fun
+toilet brush +buy 
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 vim-sandwich +video
 zfs +code
