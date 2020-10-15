@@ -4,6 +4,7 @@ Add brightness keys to i3 config +todo
 Alexandrite +misc
 Amazon Glacier +read
 Banshee +tv
+Basic auth (https://www.ietf.org/rfc/rfc2069.txt) +read
 Birdbox +film
 Book of Mormon +fun
 Buy a metronome domain and host it on the same one as bogans +todo
@@ -36,6 +37,7 @@ Hole in ceiling +todo
 Indoor Climbing (theboardroomclimbing.com) +fun
 JWT +read
 Joker +film
+Jon Gibson (Minimalist Musician) +music
 Kings of pain +tv
 Laser pen for Arnie +buy
 Llandudno great orm +fun
@@ -83,10 +85,11 @@ Zeitgeist +film
 Zeitgeist 1 2 3 +film
 book dentist +todo
 bookshelf +buy
-brush for arnie +buy
+command line code review +video 
+de
 downgrade phone contract +todo
 ellul philosopher +read
-emmet journey +todo 
+emmet journey +todo
 etude #27 sounds nice +todo
 http://blog.davidedmundson.co.uk/blog/modern-process-management-on-the-desktop/ +read
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf +read
@@ -98,6 +101,7 @@ https://fullstackopen.com/en/part8/graph_ql_server +read
 https://github.com/compose-spec/compose-spec/blob/master/spec.md +read
 https://grahamc.com/blog/erase-your-darlings +read
 https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78 +read
+https://medium.com/mercadona-tech/recommendations-iii-a-flavored-tale-about-similar-tastes-1afd4a44f93d +read
 https://parkarts.pbworks.com/w/file/fetch/120179109/Music%20Theory%20and%20Practice%20Textbook.pdf +read
 https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html +read
 https://tomassetti.me/parsing-sql/ +read
@@ -106,15 +110,14 @@ https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1 +rea
 https://www.musical-u.com/learn/how-to-use-circle-fifths/ +read
 https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux +read
 https://www.wired.com/story/lee-holloway-devastating-decline-brilliant-young-coder/ +read
-pizza slicer +buy
 rancher +code
-readline +video 
+readline +video
 record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
-sort ssh keys so I don't have to retype my key every time +work
+sort ssh keys so I don't have to retype my key every time +work +todo
 start a pisstake instagram on art +fun
-update CV +todo
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
+vim-sandwich +video
 zfs +code
 x 2020-09-28 Couple of wireless music players +buy
 x 2020-09-28 Hdmi cable switchee +buy
@@ -127,3 +130,12 @@ x 2020-09-30 `man openssl` +read
 x 2020-09-30 https://systemd.io/DESKTOP_ENVIRONMENTS/ +read
 x 2020-10-04 Alberto Iglesias Fernández-Berridi +music
 x 2020-10-04 Trainspotting 2 +film
+x 2020-10-05 update CV +todo
+x 2020-10-08 Carrie (Stephen King) +book
+x 2020-10-08 Digital Fortress (Dan Brown) +book
+x 2020-10-08 Fahrenheit 451 +book
+x 2020-10-08 Freakonomics +book
+x 2020-10-08 The Tattoist of Auschwitz +book
+x 2020-10-08 The Thief +book
+x 2020-10-08 brush for arnie +buy
+x 2020-10-08 pizza slicer +buy
