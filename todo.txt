@@ -28,6 +28,7 @@ Get rid of shit +todo
 Go-karting +fun
 Green Room +film
 Gun range +fun
+Guy gets back home after work, says "Hey little guy!, I've missed you so much!" picks up his robot hoover and gives it a kiss. Puts it back down and it starts hoovering again and he goes "God i love you" +comic
 Handgliding +fun
 Henri texier amir +music
 Here and Now! The autobiography of Pat Martino +book
@@ -38,6 +39,7 @@ Indoor Climbing (theboardroomclimbing.com) +fun
 JWT +read
 Joker +film
 Jon Gibson (Minimalist Musician) +music
+Kemper? +buy 
 Kings of pain +tv
 Laser pen for Arnie +buy
 Llandudno great orm +fun
@@ -56,6 +58,7 @@ Permanent Record +book
 Pikhal: A Chemical Love Story +book
 Precious +film
 Rent a Treehouse +fun
+Rome +tv
 Safari park near Liverpool +fun
 Self-similar Melodies +book
 Sell phone +todo
@@ -85,8 +88,8 @@ Zeitgeist +film
 Zeitgeist 1 2 3 +film
 book dentist +todo
 bookshelf +buy
-command line code review +video 
-corkscrew +buy 
+command line code review +video
+corkscrew +buy
 de
 downgrade phone contract +todo
 ellul philosopher +read
@@ -117,7 +120,7 @@ record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
 sort ssh keys so I don't have to retype my key every time +work +todo
 start a pisstake instagram on art +fun
-toilet brush +buy 
+toilet brush +buy
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 vim-sandwich +video
 zfs +code
@@ -141,3 +144,4 @@ x 2020-10-08 The Tattoist of Auschwitz +book
 x 2020-10-08 The Thief +book
 x 2020-10-08 brush for arnie +buy
 x 2020-10-08 pizza slicer +buy
+x 2020-10-16 A Game Of Thrones (George RR Martin) +book
