@@ -1,5 +1,6 @@
 A Short Stay In Hell +book
 A newly wed couple moving intogether. The guy says let's have sex in every room of the house! The girl agrees. Turns out she lives in a castle and there's like 300 rooms. Guy's face drops. (Maybe reverse the gender so this makes more sense) +comic
+A university show their diversity department, it's just a bunch of caged token asians/black people that they bring out for campus flyers etc... There's a joke in there somewhere +comic
 Add brightness keys to i3 config +todo
 Alexandrite +misc
 Amazon Glacier +read
@@ -39,13 +40,11 @@ Indoor Climbing (theboardroomclimbing.com) +fun
 JWT +read
 Joker +film
 Jon Gibson (Minimalist Musician) +music
-Kemper? +buy 
+Kemper? +buy
 Kings of pain +tv
-Laser pen for Arnie +buy
 Llandudno great orm +fun
 Maderia +fun
 Make a mathematical patterns list/post to take ideas from https://www.etsy.com/uk/listing/774676810/2021-wall-planner-calendar-a1-841x594mm?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=wall+planner&ref=sr_gallery-1-7&frs=1 +todo
-Michael +film
 Mountains +fun
 Naked lunch +film
 New bulbs for Amy's lamp +buy
@@ -56,7 +55,6 @@ Oragnise bike fix +todo
 Paintballing +fun
 Permanent Record +book
 Pikhal: A Chemical Love Story +book
-Precious +film
 Rent a Treehouse +fun
 Rome +tv
 Safari park near Liverpool +fun
@@ -94,6 +92,7 @@ de
 downgrade phone contract +todo
 ellul philosopher +read
 emmet journey +todo
+entr +video
 etude #27 sounds nice +todo
 http://blog.davidedmundson.co.uk/blog/modern-process-management-on-the-desktop/ +read
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf +read
@@ -118,11 +117,11 @@ rancher +code
 readline +video
 record BJ songs +todo
 something about remembering someone after death but they died on a leap year so they only get remembers every 4 years and everyone's glad about it and not really arsed anyway +comic
-sort ssh keys so I don't have to retype my key every time +work +todo
 start a pisstake instagram on art +fun
 toilet brush +buy
 vim article on lsp: Read comments here https://www.reddit.com/r/vim/comments/fkpk9z/an_article_attempting_to_explain_tags_and_lsps/ mention universal-ctags package mention you can use them in conjunction +todo
 vim-sandwich +video
+what every programmer should know about memory (https://people.freebsd.org/~lstewart/articles/cpumemory.pdf) +read 
 zfs +code
 x 2020-09-28 Couple of wireless music players +buy
 x 2020-09-28 Hdmi cable switchee +buy
@@ -145,3 +144,7 @@ x 2020-10-08 The Thief +book
 x 2020-10-08 brush for arnie +buy
 x 2020-10-08 pizza slicer +buy
 x 2020-10-16 A Game Of Thrones (George RR Martin) +book
+x 2020-10-20 Laser pen for Arnie +buy
+x 2020-10-20 Michael +film
+x 2020-10-20 Precious +film
+x 2020-10-20 sort ssh keys so I don't have to retype my key every time +work +todo
