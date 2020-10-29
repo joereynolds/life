@@ -5,6 +5,8 @@ summer spent in the Ouachita Mountains with Marcus - His younger brother.
 
 # Characters
 
+## Reference
+
 Christopher Rymer     - Father
 Mary Rymer            - Mother
 Billy Rymer           - Older brother
@@ -26,3 +28,4 @@ Ms Williams           - The teacher held accountable
 
 End with them moving into their new place, Billy goes into his new bedroom, and
 hangs himself.
+
