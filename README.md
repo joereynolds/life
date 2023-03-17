@@ -1,5 +1,7 @@
 # life
 
+NOTE: I am archiving this as having a version controlled document system is a PITA. Much easier to have something that I can just write to. i.e. Dropbox/GDrive etc... Leaving it up for the vimmers who like notetaking.
+
 A dump of my docs.
 Open up the root and use Vim's `gf` command to browse to your leisure
 
